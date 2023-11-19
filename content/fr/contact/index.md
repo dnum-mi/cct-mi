@@ -7,5 +7,4 @@ eleventyNavigation:
   order: 2
 ---
 # Contact
-
-<contact@code.gouv.f>
+<cct@interieur.gouv.fr>

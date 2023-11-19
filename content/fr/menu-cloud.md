@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: À propos
-  order: 5
+  key: Cloud au centre
+  order: 4
 permalink: false
 ---

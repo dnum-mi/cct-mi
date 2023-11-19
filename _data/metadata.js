@@ -1,6 +1,6 @@
 module.exports = {
-    title: "Nom du site / service",
-    url: "https://url_du_site.gouv.fr/",
+    title: "Cadre de cohérence Technique / Ministère de l'intérieur",
+    url: "https://cct-mi.interieur.gouv.fr/",
     newsletter: [
         {
             url: "",
@@ -19,11 +19,11 @@ module.exports = {
     sourcehut_url: "",
     repository_url: "https://github.com/codegouvfr/eleventy-dsfr",
     language: "fr",
-    description: "baseline - précisions sur l‘organisation",
+    description: "Direction de la Transformation NUmérique",
     author: {
         name: "Nom du service",
         email: "contact@nom.du.service.gouv.fr",
         url: "https://url_du_service.gouv.fr/"
     },
-    service: "Nom de l’entité (ministère, secrétariat d‘état, gouvernement)"
+    service: "ministètre de l'intérieur"
 }

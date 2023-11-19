@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: À propos
-  order: 5
+  key: Socle
+  order: 2
 permalink: false
 ---

@@ -1,5 +1,9 @@
 module.exports = {
-    pTitle: "Lorem ipsum",
+    pTitle: "Cadre de cohérence technique (CCT)",
     pDescription: `
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mi est. Pellentesque ac eros ipsum. Nunc sed ligula a justo vehicula eleifend. Curabitur ut nibh id sapien ullamcorper ornare at sit amet leo. Ut suscipit, erat eget malesuada feugiat, justo leo maximus ipsum, in consectetur neque turpis non mauris. Pellentesque porttitor ut elit eu posuere. Duis vel posuere lacus, nec pellentesque nunc. Vivamus rutrum eros ac nisl sollicitudin, vitae egestas diam interdum. Vivamus a quam eleifend, maximus massa sed, interdum lectus. In placerat porttitor malesuada. Vestibulum at maximus felis, quis eleifend felis. Nullam id tortor sem. Donec eleifend pharetra justo vel ultricies. Cras lobortis, erat non tempus porta, ligula velit laoreet ligula, ac sagittis metus enim vel nisi.`
+    À travers sa doctrine <strong>Cloud au centre</strong> , l’État encourage l’ensemble des acteurs publics à se saisir de son potentiel afin de développer une nouvelle génération de services numériques de qualité, tout en protégeant au mieux les données des entreprises et des citoyens français.
+    </br>
+
+    <strong>Dans le but de disposer un SI adapté et agile</strong>, le MIOM a posé un ensemble de normes techniques et des recommandations de nature, formalisés dans un document de Cadre de Cohérence Technique (CCT), pour le développement de nouvelles applications compatibles avec ces normes et hébergées sur son infrastructure, et de services de qualité qui répondent aux besoins des métiers et déployables rapidement et à coûts réduits.
+    `
 };
