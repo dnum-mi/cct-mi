@@ -24,7 +24,7 @@
   "engines": {
     "node": ">=14"
   },
-  "homepage": "https://dnum-mi.github.io/cct-mi/fr",
+  "homepage": "https://dnum-mi.github.io/cct-mi/",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.0",
