@@ -1,4 +1,4 @@
-![build](https://img.shields.io/github/actions/workflow/status/codegouvfr/eleventy-dsfr/11ty-gh-pages.yml?label=deployed%20to%20gh-pages)
+[![Deploy Eleventy with GitHub Pages dependencies preinstalled](https://github.com/dnum-mi/cct-mi/actions/workflows/Deploy%20Eleventy%20with%20GitHub%20Pages_dependencies_preinstalled.yml/badge.svg)](https://github.com/dnum-mi/cct-mi/actions/workflows/Deploy%20Eleventy%20with%20GitHub%20Pages_dependencies_preinstalled.yml)
 
 # eleventy-dsfr
 
@@ -121,3 +121,5 @@ Le dépôt est publié sous licence MIT pour le code et sous licence
 Etalab 2.0 pour les autres contenus.
 
 Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/) de la DINUM.
+
+Utilisation de [unDraw](https://undraw.co/search)
