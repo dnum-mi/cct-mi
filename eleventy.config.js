@@ -53,6 +53,15 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+    const highlighter = eleventyConfig.markdownHighlighter;
+    eleventyConfig.addMarkdownHighlighter((str, language) => {
+      if (language === "mermaid") {
+        return `<pre class="mermaid">${str}</pre>`;
+      }
+      return highlighter(str, language);
+    });
+
+   
     // Custom collections
     eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {
         return collectionApi.getAll().sort((a, b) => {

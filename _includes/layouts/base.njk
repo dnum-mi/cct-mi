@@ -23,10 +23,14 @@
   {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 
   <style>{% getBundle "css" %}</style>
-
+  <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  </script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
   <meta name="generator" content="{{ eleventy.generator }}">
-
+  
   <title>{{ title or metadata.title }}</title>
+  
 </head>
 <body id="top">
 {% include "templates/header.njk" %}
