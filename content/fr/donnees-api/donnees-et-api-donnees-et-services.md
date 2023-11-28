@@ -22,7 +22,7 @@ Réutiliser des données, exposer des données, exposer des traitements : ces ac
 
 Le type d'interface dont il sera question dans la suite de la fiche sera ce type d'API HTTP/REST.
 
-La [Stratégie d’API](../../strategie-api/sommaire.md) du CCT décrit la démarche dans toute sa dimension : architecture, design, sécurité et gouvernance. 
+La [Stratégie d’API](../../strategie-api/sommaire) du CCT décrit la démarche dans toute sa dimension : architecture, design, sécurité et gouvernance. 
 
 ### <a name="Réutilisation">Réutilisation</a>
 

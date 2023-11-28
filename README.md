@@ -1,128 +1,122 @@
 [![Deploy Eleventy with GitHub Pages dependencies preinstalled](https://github.com/dnum-mi/cct-mi/actions/workflows/Deploy%20Eleventy%20with%20GitHub%20Pages_dependencies_preinstalled.yml/badge.svg)](https://github.com/dnum-mi/cct-mi/actions/workflows/Deploy%20Eleventy%20with%20GitHub%20Pages_dependencies_preinstalled.yml)
 
 
+# Le Cadre de Cohérence Technique
 
+## Contexte
 
-# eleventy-dsfr
+Le CCT 3.1.0 a permis d'intégrer des évolutions majeures concernant l'ENT, le référentiel des produits (ex: utilisation de docker en production, signature électronique), et l'arrivée du chapitre Cloud PI Native.
 
-Un dépôt pour démarrer un site statique au [DSFR](https://www.systeme-de-design.gouv.fr/) avec le
-générateur [Eleventy](https://www.11ty.dev/).
+Ce CCT souffre de quelques lacunes dont les exigences doivent permettre de les corriger.
 
-![Screenshot of the website front page.](eleventy-dsfr.png)
+## Exigences
 
-## Fonctionnalités
+- Le système doit appliquer le design system de l'Etat(dsfr); 
+- Le système doit permettre une recherche de mots ou groupe de mots sur l'ensemble du site;
+- Le système doit être conçu pour qu'il puisse s'exécuter nativement sur Openshift/Kubernetes<sup>1</sup>;
+- La prise en compte des demandes utilisateurs se fait par issues depuis un dépôt Git;
+- Les référents d'un chapitre/thèmes soumettent des évolutions ou corrections via une pull/request sur le dépôt Git;
+- Les documents, chapitres, thèmes sont rédigés sous forme de markdown;
+- :warning: Dernière exigence : certains contenus doivent être convertis en pdf en vue du cctp.
 
-- **Style** :
-    - DSFR :
-        - Installation et mise à jour automatique via `npm`.
-        - [Voir les composants déjà implémentés](_includes/components)
-    - [Voir les mises en pages déjà implémentées](_includes/layouts)
-- **a11y et responsivity** : Respecte les recommandations du DSFR.
-- **i18n** : Prise en charge de l'internationalisation des textes et contenus via plusieurs filtres et le [système d'i18n d'Eleventy](https://www.11ty.dev/docs/i18n/).
-- **Navigation** : Utilise le [système de navigation d'Eleventy](https://www.11ty.dev/docs/plugins/navigation/) et gère la navigation de second niveau.
-- **Syntaxe markdown** : Améliorée via l'ajout de [conteneurs personnalisés](./markdown-custom-containers.js).
-- **Images** : Utilise l'[utilitaire d'image d'Eleventy](https://www.11ty.dev/docs/plugins/image/) pour traiter les images (par défaut pour certains composants, par exemple le composant [`card.njk`](_includes/components/card.njk)).
-- **Recherche** : Utilise [pagefind](https://pagefind.app/) pour la recherche.
-- **Pagination** : Utilise le [système de pagination d'Eleventy](https://www.11ty.dev/docs/pagination/) et gère la pagination de second niveau.
-- **Flux RSS** : Utilise le [plugin RSS d'Eleventy](https://www.11ty.dev/docs/plugins/rss/).
-- **Calendrier** : Utilise la bibliothèque [ics](https://www.npmjs.com/package/ics) pour générer un calendrier [`calendar.ics`](https://codegouvfr.github.io/eleventy-dsfr/calendar.ics) à la racine du site, ainsi que les événements `.ics` associés, à partir d'événements.
-- **Mesure d'audience** : Intègre la solution [matomo](public/js/matomo.js).
-- **Pages déjà générées** :
-    - Pages d'accueil, À propos, section Blog (en français et en anglais).
-    - Flux RSS pour Atom et JSON
-    - Plan du site et `sitemap.xml`
-    - Page non trouvée (404)
-    - Les pages obligatoires liées aux obligations légales : “accessibilité : non/partiellement/totalement conforme”, mentions légales, données personnelles et gestion des cookies.
-    
-## Prise en main
-### Installation
+[1]: il s'agit plus d'une opportunité que d'une exigence. L'instanciation sur K8s nous permet d'envisager une exposition aussi bien sur le RIE que sur internet dans l'éventualité où le repository soit uniquement exposable en interne.
 
-**Cloner le dépôt** :
+## Choix
 
-```bash
-git clone https://github.com/codegouvfr/eleventy-dsfr.git my-site-name
+Pour répondre à ces exigences notre décision s'est portée sur [eleventy dsfr](https://ecoresponsable.numerique.gouv.fr/publications/boite-outils/fiches/eleventy-dsfr/).
+
+## Tests réalisés
+
+- prendre les fichiers markdown de l'ENT, données et api;
+- référencer le cct cloud pi native;
+- convertir le document chapeau document en markdown adapté à la lecture depuis un site;
+- définir une cinématique et présentation des thèmes/chapitres en lien avec le document ou la page dit "chapeau";
+- générer une image docker du site cct;
+- mode d'exposition:
+  - configuration d'un environnement k8s sur un "bac à sable" cloud;
+  - via [github pages](https://dnum-mi.github.io/cct-mi/)
+- être référencé sur une instance matomo
+  
+## Avantages
+
+- site au standard dsfr;
+- un module de recherche;
+- une sonde **matomo** pour permettre la mesure d'audience(tester sous k8s à partir de [matomo helm](https://bitnami.com/stack/matomo/helm));
+
+## Contraintes
+
+Une adaptation des fichiers markdown est nécessaire. 
+
+### sur le bas et haut de page
+
+#### Haut de page
+
+- sans menu:
+
+```
+---
+title: données et api
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
 ```
 
-**Naviguer dans le dossier** :
+- référencement dans un menu:
 
-```bash
-cd my-site-name
+```
+---
+title: Pour commencer
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: pour commencer
+  parent: Documentation
+  order: 1
+---
 ```
 
-**Installer les dépendances** :
+#### bas de page
 
-```bash
-npm install
+```
+{%include "components/back_to_top.njk" %}
+
+```
+### sur les tableaux
+
+La représentation sous forme de markdown n'est pas trés lisible
+
+- avec une structure 
+
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/d6a60397-6f95-4ed9-a5f4-e1a883663e39.png)
+
+```
+{% from "components/component.njk" import component with context %}
+{{ component("table", {
+    title: "Critères retenus pour la sélection des logiciels, outils ou services",
+    headers: ["Critères", "Attentes"],
+    data: [
+        ["Type de logiciel – Libre / Gratuiciel / Payant ", "Ré-utilisabilité, scalabilité, flexibilité, sécurité (transparence du code source), évolutivité (mutualisation possible des améliorations), pérennité, interopérabilité (usage des formats ouverts), limite d’usage si gratuiciel et coût à prévoir si logiciel payant."],
+        ["Existence d’un support correctif O/N", "Garantie d'assistance continue, mises à jour régulières aux fins d'amélioration de fonctionnalités et de corrections de bugs, permettant ainsi une stabilité d’usage sur le long terme. Un logiciel non supporté n’a plus vocation à être utilisé sur les postes du MIOM du fait de la non couverture de ses failles de sécurité."],
+        ["Outil utilisé en Interministériel O/N", "Facilité d’usage entre les systèmes utilisés dans d'autres administrations, possibilité de mutualisation en termes de support et de maintenance, partage des bonnes pratiques."]
+    ]
+}) }}
+
 ```
 
-**Exécuter Eleventy** :
+- avec une structure markdown
 
-Construire un livrable, indexé avec pagefind pour la recherche :
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/677822ea-7b36-4303-8cda-a7d7824e62b4.png)
 
-```bash
-npm run build
-```
 
-L'exécuter sur le serveur de développement local :
 
-```bash
-npm start
-```
+### Traitement des liens 
+La suppression de l'extension .md car le site est déjà en html.
 
-Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
+### pdf
+pas de pluggins connus qui permettent la transformation de md en pdf
 
-### Réutilisation
-
-- Modifier les fichiers [`_data/metadata.js`](_data/metadata.js) et [`_data/data.js`](_data/data.js) pour renseigner les informations du site.
-- Modifier le fichier [`package.json`](package.json) pour modifier les informations du dépôt.
-- Compléter les pages obligatoires : [`content/fr/accessibility`](content/fr/accessibility/index.md), [`content/fr/personal-data`](content/fr/personal-data/index.md), [`content/fr/legal`](content/fr/legal/index.md).
-
-### Développement
-
-- Modifier le fichier [`eleventy.config.js`](eleventy.config.js) pour configurer les paramètres d'Eleventy différemment.
-- Ajouter des composants du DSFR dans le dossier [`_includes/components`](_includes/components) et des [mises en page](https://www.11ty.dev/docs/layouts/) dans le
-  dossier [`_includes/layouts`](_includes/layouts).
-    - Ajouter de nouveaux conteneurs markdown dans le fichier [`markdown-custom-containers.js`](markdown-custom-containers.js).
-
-_[Voir aussi la documentation des composants](https://codegouvfr.github.io/eleventy-dsfr/fr/blog/tags/composant/)_
-
-- Ajouter des chaînes de caractères localisées dans le dossier `_data/i18n/[lang]/index.js`.
-    - Pour ajouter une nouvelle traduction, ajouter un dossier `[lang]` dans [`content`](content), un nouveau fichier `_data/i18n/[lang]/index.js` et l'inclure dans [`_data/i18n/index.js`](_data/i18n/index.js).
-- Ajouter des styles personnalisés et des images dans le dossier [`public`](public).
-    - Celui-ci sera copié tel quel dans le dossier de sortie. Cela signifie que `./public/css/*` persistera dans `./_site/css/*` après la construction du livrable.
-- Compléter le [README](README.md) et la [documentation](content/fr/blog/posts). 😀
-
-### Ajout de contenu
-
-_[Voir la documentation des fonctionnalités et du Markdown](https://codegouvfr.github.io/eleventy-dsfr/fr/blog/tags/contenu/)_
-
-### Déploiement
-
-- Voir un [exemple de worklow de déploiement sur GitHub Pages](https://github.com/codegouvfr/eleventy-dsfr/blob/gh-pages/.github/workflows/11ty-gh-pages.yml) sur la branche `gh-pages`.
-
-En cas d'erreur lors du build :
-```bash
-Error: Get Pages site failed
-Error: HttpError: Not Found
-```
-Essayer [cette configuration](https://stackoverflow.com/a/73967433).
-- _[OPTIONNEL]_ [Configurer la redirection](https://www.11ty.dev/docs/i18n/#distinct-urls-using-implied-default-language)
-  de toutes les URLs des pages dont la langue est celle par défaut.
-
-## Documentation
-
-La suite de la documentation (composants, fonctionnalités) est disponible dans [`content/fr/blog/posts`](content/fr/blog/posts) ou directement sur le [site de démonstration](https://codegouvfr.github.io/eleventy-dsfr/fr/blog).
-
-## Démonstration et réutilisations
-
-- Pour une démonstration, voir la [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/) correspondante.
-- `eleventy-dsfr` est utilisé pour le site [code.gouv.fr](https://code.gouv.fr).
-
-## Licence
-
-Le dépôt est publié sous licence MIT pour le code et sous licence
-Etalab 2.0 pour les autres contenus.
-
-Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/) de la DINUM.
-
-Utilisation de [unDraw](https://undraw.co/search)
+# Liens
+Nous utilisons :
+- le template fournis par [eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) avec une adaptation concernant l'usage de mermaid.
+- [unDraw](https://undraw.co/search) pour certaines images
