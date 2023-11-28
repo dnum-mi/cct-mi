@@ -25,8 +25,9 @@
   <style>{% getBundle "css" %}</style>
   <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        let config = { startOnLoad: true, flowchart: { useMaxWidth: false, htmlLabels: true } };
+        mermaid.initialize(config);
   </script>
-  <script>mermaid.initialize({ startOnLoad: true });</script>
   <meta name="generator" content="{{ eleventy.generator }}">
   
   <title>{{ title or metadata.title }}</title>
