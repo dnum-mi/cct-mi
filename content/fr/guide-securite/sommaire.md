@@ -1,9 +1,9 @@
 ---
-title: Guide de la sécurité
+title: Sécurité
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
-  key: guide de la sécurité
+  key: sécurité
   parent: Socle
   order: 3
 ---
