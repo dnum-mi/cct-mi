@@ -31,12 +31,14 @@ Pour répondre à ces exigences notre décision s'est portée sur [eleventy dsfr
 - référencer le cct cloud pi native;
 - convertir le document chapeau document en markdown adapté à la lecture depuis un site;
 - définir une cinématique et présentation des thèmes/chapitres en lien avec le document ou la page dit "chapeau";
-- générer une image docker du site cct;
+- générer une image docker du site cct<sup>2</sup>;
 - mode d'exposition:
   - configuration d'un environnement k8s sur un "bac à sable" cloud;
   - via [github pages](https://dnum-mi.github.io/cct-mi/)
 - être référencé sur une instance matomo
-  
+
+[2] :warning: actuellement impossible de générer l'image docker en excluant ./node_modules. Le composant luxon ne peut être trouvé
+
 ## Avantages
 
 - site au standard dsfr;
