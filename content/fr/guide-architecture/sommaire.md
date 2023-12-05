@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 2
 ---
 
-Voici une solution d'architecture applicative dans un environnement Kubernetes et décrite avec mermaid<SPACE>:
+Voici une solution d'architecture applicative dans un environnement Kubernetes et décrite grâce à mermaid<SPACE>:
 
 <pre class="mermaid">
  graph LR;
