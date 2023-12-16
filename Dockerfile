@@ -6,7 +6,7 @@ ARG https_proxy
 ARG npm_registry
 ARG no_proxy
 
-ENV NODE_ENV production
+# ENV NODE_ENV production
 
 # Create app directory
 
@@ -27,17 +27,17 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo "Europe/Paris" > /etc
 RUN npm cache clean -force
 
 # copy all dependances
-COPY package.json ./
-
-# install dependencies
-RUN npm install --save
+COPY package.json .
 
 # copy all source files into app workdir
-COPY . /usr/src/app
+COPY . .
+
+# install dependencies
+RUN npm install
+RUN echo "installation"
 
 # build
-RUN npm run build 
-
+RUN npm run build
 RUN npm run postbuild
 
 FROM nginxinc/nginx-unprivileged

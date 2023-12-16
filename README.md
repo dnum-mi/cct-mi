@@ -17,7 +17,7 @@ Ce CCT souffre de quelques lacunes dont les exigences doivent permettre de les c
 - La prise en compte des demandes utilisateurs se fait par issues depuis un dépôt Git;
 - Les référents d'un chapitre/thèmes soumettent des évolutions ou corrections via une pull/request sur le dépôt Git;
 - Les documents, chapitres, thèmes sont rédigés sous forme de markdown;
-- :warning: Dernière exigence : certains contenus doivent être convertis en pdf en vue du cctp.
+- :warning: Derni0ère exigence : certains contenus doivent être convertis en pdf en vue du cctp.
 
 [1]: il s'agit plus d'une opportunité que d'une exigence. L'instanciation sur K8s nous permet d'envisager une exposition aussi bien sur le RIE que sur internet dans l'éventualité où le repository soit uniquement exposable en interne.
 
