@@ -1,0 +1,1 @@
+Cet espace regroupe les contenus qui présentent le Cadre de cohérence Technique. Les documents de cet espace posent le contexte, les objectifs, les modalités d'usages et l'aide à l'orientation vers les autres contenus.
