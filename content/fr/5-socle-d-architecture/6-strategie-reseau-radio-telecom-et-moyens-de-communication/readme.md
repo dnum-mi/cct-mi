@@ -1,0 +1,1 @@
+Cet espace traite des straégies d'exposition et de ce que cela implique pour les projets, des différentes natures d'échanges d'information mis en oeuvre au sein du MIOM et avec les entités tierses, des reseaux d'urgence et telecom.
