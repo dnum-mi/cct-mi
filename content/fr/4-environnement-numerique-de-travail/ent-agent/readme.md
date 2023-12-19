@@ -1,0 +1,1 @@
+Espace décrivant les éléments relatifs à l'environnement numérique de travail de l'agent; Ses outils (nomades, fixes, en BYOD, ...), Ses différents espaces (bureautique, collaboratifs, Métier, ...), Ses modalités d'accès, ainsi que les contraintes d'usage potentielles.
