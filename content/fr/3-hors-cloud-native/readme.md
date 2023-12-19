@@ -1,0 +1,2 @@
+Les éléments décrits ici sont les normes, les standards et les recommandations techniques à respecter pour la mise en œuvre et la maintenance d'un système d'information dans un contexte hors Cloud Native. 
+Sont concernés par ces informations, les applications existantes, placés dans les datacenter historiques et dans la première génération de Cloud mise en oeuvre au MIOM, et celles qui ne peuvent appliquer la démarche Cloud Native.
