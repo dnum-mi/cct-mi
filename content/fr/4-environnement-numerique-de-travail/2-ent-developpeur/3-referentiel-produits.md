@@ -1,5 +1,5 @@
 ---
-title: referentiel des produits
+title: referentiel des produits de l'ENT du developpeur
 layout: layouts/page.njk
 showBreadcrumb: true
 ---

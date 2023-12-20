@@ -1,9 +1,9 @@
 ---
-title: Environnement Numérique de Travail
+title: Environnement Numérique de Travail de l'agent
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
-  key: environnement numérique de travail
+  key: environnement numérique de travail de l'agent
   parent: Socle
   order: 1
 ---
