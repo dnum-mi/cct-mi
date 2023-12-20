@@ -1,1 +1,0 @@
-Cet espace intègre les contenus decrivant les espaces de fabrique de code disponibles pour les applications existantes dans les datacenters historiques et Cloud, n'ayant pas mis en oeuvre l'approche Cloud Native.

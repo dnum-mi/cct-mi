@@ -1,0 +1,1 @@
+Cet espace couvre les aspects de sécurité, d'homologation et de conformité des systèmes d'information dans le Cloud du MIOM, dans un contexte hors Cloud Native.

@@ -1,1 +1,0 @@
-Cet espace documentaire couvre les aspects de sécurité, d'homologation et de conformité des systèmes d'information existants dans nos datacenters historiques, qui n'ont pas été conçus selon l'approche Cloud Native, en central et en territorial.
