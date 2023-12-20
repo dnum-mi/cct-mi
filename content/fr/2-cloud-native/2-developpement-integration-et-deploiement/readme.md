@@ -1,1 +1,1 @@
-Cet espace intègre les contenus decrivant les modalités d'intégration et de déploiement de solutions dans le Cloud Native.
+Cet espace décrit les modalités d'intégration et de déploiement de solutions dans le Cloud Native.
