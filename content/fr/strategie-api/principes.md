@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 ---
 
-Chaque principe exposé ici est décliné en un ensemble de règles [consultables](../regles). Ces principes visent à mettre en place un cadre partagé permettant d’inscrire l’ensemble des projets dans une dynamique API first.
+Chaque principe exposé ici est décliné en un ensemble de règles [consultables](../regles/). Ces principes visent à mettre en place un cadre partagé permettant d’inscrire l’ensemble des projets dans une dynamique API first.
 
 ## <a name="pr1"> Principe n°1 : une API doit exposer des services métiers et non des composants techniques </a>
 

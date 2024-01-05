@@ -13,7 +13,7 @@ tags:
 {% from "components/component.njk" import component with context %}
 <div>
 {{ component("card", {
-    url: "/guide-architecture/sommaire",
+    url: "/guide-architecture/sommaire/",
     title: "Guide de bonnes pratiques d’architecture",
     description: "ensemble d’exigences non fonctionnelles et de bonnes pratiques d’architecture SI, s’appliquant à l’ensemble des applications et SI du MIOM et Inter Ministériel;",
     tags: [],
