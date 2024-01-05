@@ -112,6 +112,7 @@ La représentation sous forme de markdown n'est pas trés lisible
 
 ### Traitement des liens 
 La suppression de l'extension .md car le site est déjà en html.
+Ajouter le caractère "/" à la fin des URL (ex : ../sommaire/).
 
 ### pdf
 pas de pluggins connus qui permettent la transformation de md en pdf
