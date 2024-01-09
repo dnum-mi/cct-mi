@@ -1,3 +1,14 @@
+---
+title: CCT dans la passation des marchés publics
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: CCT dans la passation des marchés publics
+  parent: Présentation
+  order: 3
+---
+
+
 # Guide d’utilisation du CCT dans la passation des marchés publics
 
 ## <a name="CCT">Cadre de Cohérence Technique (CCT)</a>

@@ -1,3 +1,15 @@
+---
+title: Executive summary
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: Executive summary
+  parent: Présentation
+  order: 1
+---
+
+
+
 # Executive summary
 
 À travers sa doctrine « Cloud au centre », l’État encourage l’ensemble des acteurs publics à se saisir de son potentiel afin de développer une nouvelle génération de services numériques de qualité, tout en protégeant au mieux les données des entreprises et des citoyens français.
