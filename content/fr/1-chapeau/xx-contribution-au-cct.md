@@ -14,6 +14,13 @@ flowchart LR
     E --> G[Site Web]
 
 ```
+## Maintien en cohérence du CCT, contrôle et corrections
+Le document est contrôlé et maintenu en cohérence par l'equipe d'Architecture d'Entreprise.
+
+Si une erreur est décelée, un relecteur peut soumettre des demandes d'évolutions ou des corrections via [une "issue" publiée sur le dépôt Git](https://github.com/dnum-mi/cct-mi/issues).
+
+
+
 ## L'édition de contenu
 ### Qui : Le gestionnaire de contenus
 Le CCT est composé d'un ensemble de contenus organisés et dont les porteurs au sein de la DTNUM ont été identifiés. 
@@ -59,15 +66,14 @@ La liste suivante identifie les sous-directions en charge des contenus.
 
 ### Comment : Modalités de saisie
 
-Le responsable peut se connecter sur le dépôt gitlab du CCT. Le rôle qui lui est attribué sur les projets CCT est "reporter".
+Le responsable peut se connecter sur le dépôt git du CCT. Le rôle "write" lui est attribué.
 
 | Action | Description |
-| ------ | ------ |
-| Connexion au dépôt CCT <br/> [Lien CCT](https://lienCCT)| Connexion par votre compte public (préalablement enregistré par l'equipe d'Architecture pour vous donner les droits nécessaires)|
-| Se positionner sur la branche Master<br/>||
-| Créer une branche indiquant la fiche modifiée et datée (ex."20231201_ENT Agent")||
-|Choisir et éditer la fiche que vous souhaitez modifier|Vous accédez au contenu modifiable de la fiche, en language markdown.<br/>|
-|Soumettez votre proposition de modification<br/> (submit merge request)|Le contenu soumis sera analysé par l'équipe d'architecture d'entreprise pour s'assurer de la cohérence d'ensemble. Le cas échéant, il vous demanderont de corriger la fiche. Le contenu validé par l'équipe sera ensuite poussé vers l'étape de génération du site web pour publication immédiate.|
+| ------ | ----------- |
+| Connexion au dépôt CCT <br/> [Lien CCT](https://github.com/dnum-mi/cct-mi/)| Connexion par votre compte public (préalablement enregistré par l'equipe d'Architecture pour vous donner les droits nécessaires)|
+|Créer sa branche de modification|Se positionner sur la branche "Main" ou aller sur [l'espace de gestion des branches](https://github.com/dnum-mi/cct-mi/branches).<br/> Créer une branche (taper le nom dans l'espace de saisie ou faire "New branch") en indiquant la fiche modifiée et datée (ex."20231201_ENT Agent")|
+|Choisir et éditer la fiche que vous souhaitez modifier|En naviguant sur votre branche (s'assurer que dans l'url le nom de votre branche est bien le bon. ex : https://github.com/dnum-mi/cct-mi/tree/*nomdevotrebranche* ), se positionner sur le fichier a modifier et cliquer sur l'icone du stylo "Edit this file".<br/> Vous accédez au contenu modifiable de la fiche, en language markdown.<br/> Après toute modification, penser a enregistrer les modifications dans votre branche en cliquant sur "commit changes"<br/>(Penser à décrire les modifications apportées au documment)|
+|Soumettez votre proposition de modification<br/>|Lorsque toutes les modifications apportées à vos contenus sont réalisés, realiser un ["pull resquest"](https://github.com/dnum-mi/cct-mi/pulls)(New pull request) de votre branche vers la branche "Main".<br/>(Penser à reporter toutes les modifications apportées a vos documments modifiés dans votre branche)<br/>Le contenu soumis passe alors par l'étape de génération du site web pour une publication immédiate sur le site web intranet du CCT.<br/> Avant publication sur le site web internet du CCT, le contenu global sera analysé par l'équipe d'architecture d'entreprise pour s'assurer de la cohérence d'ensemble. Le cas échéant, il vous demanderont de corriger la fiche. Le contenu validé par l'équipe sera ensuite poussé vers l'étape de génération du site web Internet pour publication.|
 
 ## L'enrichissement 
 ### Qui : Les parties prenantes sur chaque contenu
