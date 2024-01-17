@@ -7,11 +7,13 @@ Le processus est le suivant :
 flowchart LR
     A[Collecte] --> B[Mise à jour]
     A -->|nouveau besoins ou changements demandés| A
-    B --> C[Contrôle de cohérence]
-    C -->|correction nécessaire| B
-    C -->|validation| E[Generation et publication]
-    E --> F[Support Pdf] 
-    E --> G[Site Web]
+    B -->|Generation et publication| C
+    C-->|Publication du site web Intranet| D
+    D --> E[Contrôle de cohérence]
+    E -->|correction nécessaire| A
+    E -->|validation| F[Generation et publication]
+    F --> G[Support Pdf] 
+    F --> H[Site Web Internet]
 
 ```
 ## Maintien en cohérence du CCT, contrôle et corrections
@@ -28,39 +30,82 @@ Ces porteurs ont pour charge de mettre et de maintenir les contenus qui leur inc
 Ces porteurs s'engagent à verifier et à modifier, le cas échéant, leurs contenus tous les trois mois.
 
 #### Liste des gestionnaires par contenu
-La liste suivante identifie les sous-directions en charge des contenus.
-|Zone du CCT|Fiche|entité responsable|
-|----|----|----|
-|Chapeau|ensemble des elements constitutifs|SDID|
-|Environnement numerique de travail|ENT agent|SDENTAT|
-|Environnement numerique de travail|ENT developpeur|SDID|
-|Environnement numerique de travail|ENT administrateur|SDAS|
-|Environnement numerique de travail|Référentiel des produits - Destinés à l'environnement numérique de l'agent|SDENTAT|
-|Cloud Native|CCT Cloud Native|SDID|
-|Hors Cloud Native|Pilier Fabrique de code - Forge DC|SDENTAT|
-|Hors Cloud Native|Pilier Hébergement - Mise en place d'un hébergement Hors Cloud Native|SDAS|
-|Socle d'architecture|Pilier Utilisateur - Usager|SDENTAT|
-|Socle d'architecture|Pilier Utilisateur - Agent|SDENTAT|
-|Socle d'architecture|Pilier Utilisateur - Personne morale|SDENTAT|
-|Socle d'architecture|Pilier Utilisateur - CSU d'une application|SDENTAT|
-|Socle d'architecture|Pilier Utilisateur - UX et accessibilité|SDID|
-|Socle d'architecture|Pilier Données et API - Stratégie API|SDID|
-|Socle d'architecture|Pilier Données et API - Concevoir une application orientée données et services|SDID|
-|Socle d'architecture|Pilier Données et API - Gestion des échanges|SDID|
-|Socle d'architecture|Pilier Données et API - Analyser et valoriser des données|SDID|
-|Socle d'architecture|Pilier Données et API - Cycle de vie de la donnée et archivage|SDID|
-|Socle d'architecture|Pilier Hébergement - Supervision d'une solution|SDAS|
-|Socle d'architecture|Enregistrement d'un élément au registre des identités à visée internationale|SHFD|
-|Socle d'architecture|Référentiel des produits - Destinés à l'environnement numérique du développeur|SDID|
-|Socle d'architecture|Référentiel des produits - Destinés à l'hébergement et l'exploitation|SDAS|
-|Socle d'architecture|Référentiel des produits - Offres de services DTNUM|SDENTAT|
-|Socle d'architecture|Guide d’utilisation du CCT dans la passation des marchés publics|SGNM/SAILMI|
-|Socle d'architecture|Documentation technique - Dossier d'Architecture Générale (DAG)|SDID|
-|Socle d'architecture|Documentation technique - Normalisation des FQDN|SDID|
-|Socle de sécurité|Pilier Sécurité - SSI et homologation|MPSSI|
-|Socle de sécurité|Pilier Sécurité - Liste des exigences SSI|MPSSI|
-|Socle de sécurité|Pilier Sécurité - Gestion des données personnelles|MAQE|
-|Socle de sécurité|Référentiel des produits - Destinés à la sécurité des SI|MPSSI|
+
+##### Les rubriques portées par la SDID : 
+
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Chapeau|Executive Summmary|------------------|
+||Présentation générale|------------------|
+||Glossaire|------------------|
+||Contribution au CCT|------------------|
+||Publication du CCT|------------------|
+|Référentiel des normes europeéenes et interministerielles|-----|------------------|
+|Doctrine d'hebergement - Cloud Native|CCT Cloud Native|------------------|
+||Intégration et déploiement|------------------|
+||Exigences d'architecture applicative, composants et services génériques|------------------|
+|Environnement numerique de Travail|Introduction|------------------|
+||Environnement numérique de travail du développeur|------------------|
+|Socle architecture|Contexte utilisateur - Experience utilisateur et accessibilité|------------------|
+||Données et API|------------------|
+
+
+
+##### Les rubriques portées par la SDAS : 
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Doctrine d'hebergement - Cloud Native|Hébergement et exploitation|------------------|
+||Exigences d'architecture|------------------|
+|Doctrine d'hebergement - Cloud PI|Hébergement et exploitation|------------------|
+||Exigences d'architecture|------------------|
+|Doctrine d'hebergement - SGAMI|Hébergement et exploitation|------------------|
+||Exigences d'architecture|------------------|
+|Environnement numerique de Travail|Environnement numérique de travail de l'administrateur|------------------|
+
+
+##### Les rubriques portées par la SDANTAT : 
+
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Doctrine d'hebergement - Cloud PI|Intégration et déploiement|------------------|
+|Doctrine d'hebergement - SGAMI|Intégration et déploiement|------------------|
+|Environnement numerique de Travail|Environnement numérique de travail de l'agent|------------------|
+|Socle d'architecture|contexte utilisateur|------------------|
+||Données et API - Protection, integrité intangibilité et non répudiation des données|------------------|
+||Services applicatifs|------------------|
+||Stratégie réseaux, radio telecom et moyens de transmission|------------------|
+
+
+##### Les rubriques portées par la SDANUM : 
+
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Doctrine d'hebergement - Cloud PI|Exigences d'architecture|------------------|
+|Doctrine d'hebergement - SGAMI|Exigences d'architecture|------------------|
+|Socle d'architecture|Exigences d'architecture globale|------------------|
+
+##### Les rubriques portées par le SGNM : 
+
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Chapeau|Guide d'utilisation du CCT dans la passation de marchés public|------------------|
+
+##### Les rubriques portées par la SSI : 
+
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Doctrine d'hebergement - Cloud Native|Sécurité|------------------|
+|Doctrine d'hebergement - Cloud PI|Sécurité|------------------|
+|Doctrine d'hebergement - SGAMI|Sécurité|------------------|
+|Socle d'architecture|Enregistrement d'un élément au registre des identités à visée internationale|------------------|
+|Socle de sécurité|Liste des exigences SSI communes|------------------|
+||Référentiel des produits de Sécurité|------------------|
+
+##### Les rubriques portées par la MAQE : 
+
+|Zone du CCT|Sous-rubriques|entité responsable|
+|-----------|-----|------------------|
+|Socle de sécurité|Gestion des données personnelles|------------------|
 
 
 
@@ -78,6 +123,7 @@ Le responsable peut se connecter sur le dépôt git du CCT. Le rôle "write" lui
 ## L'enrichissement 
 ### Qui : Les parties prenantes sur chaque contenu
 Certains contenus sont à contextualiser vis à vis d'autres organisations rattachés au MIOM.
+
 Les gestionnaire de contenus ont pour charge de collecter et d'intégrer les éléments qui seraient propres à ces parties prenantes (ex. les SSO mis en oeuvres dans les différentes entités organisationnelles) dans les fiches du CCT.
 
 D'autres acteurs peuvent soumettre au travers de requêtes (nommées Issues dans l'espace GIT) des propositions de modification (ex. ajout/remplacement/suppression d'un produit destiné à être utilisé dans un environnement de travail, un outil d'exploitation, etc...) que le gestionnaire de contenu devra analyser et intégrer le cas échéant dans sa documentation.
@@ -87,16 +133,21 @@ La partie prenante peut se connecter sur le dépôt git du CCT. Le rôle qui lui
 
 | Action | Description |
 | ------ | ------ |
-| Connexion au dépôt CCT <br/> [Lien Git](https://lien a decrire)| Connexion en accès public  / authentification avec son compte public|
-|Ouvrir la page des discussions<br/>(un élément de discussion est une "issue")|Choisir "Issues" dans le menu de gauche.<br/>La page de discussion vous liste par défaut les «Issues» ouvertes.
-|Créer un nouveau fil de discussion|Cliquer sur [New Issue] : un formulaire de saisie s'affiche.<br/>Indiquer dans le titre le nom de la fiche ciblée et une synthèse de la mise a jour souhaitée. Dans la description, mettre l'argumentaire voulu (texte à intégrer, ...)<br/>Cliquer sur [Submit Issue] pour soumettre la requête.|
-|Suites données|Le responsable du contenu ciblé doit prendre en compte la requête.)<br/>Après analyse il sera le seul arbitrer sur sa prise en compte dans les prochaines versions officielles du CCT.|
+| [Connexion au dépôt CCT](https://github.com/dnum-mi/cct-mi/)| Connexion en accès public  / authentification avec son compte public|
+|Ouvrir la page des discussions<br/>(un élément de discussion est une "issue")|Accèder à l'espace de discussion ["issue" sur le dépôt Git](https://github.com/dnum-mi/cct-mi/issues)<br/>La page de gestion vous liste les "issues" ouvertes.
+|Créer un nouveau fil de discussion|Cliquer sur "New Issue".<br/>Compléter le formulaire (Titre : Fiche ciblée - synthèse de la requête / Description : argumentaire voulu (texte à intégrer, ...))<br/>Soumettre la requête "submit issue".|
+|Suites données|Le responsable du contenu ciblé prend en compte la requête et l'analyse.<br/>Après analyse, il sera le seul à arbitrer sur sa prise en compte dans les prochaines versions officielles du CCT.|
 
 
 ## La publication 
-### Automatisation de la publication
-Suite à la validation de la cohérence par les équipes d'Architecture d'Entreprise, les contenus sont mis en ligne instantanément.
-Ce nouveau contenu est versionné et rendu disponible sur le site du CCT.
+### Automatisation de la publication sur le site web Intranet
+
+Le responsable de contenu est garant de ces fiches. Dès que celui-ci décide d'intégrer ses modifications complètes au travers d'un "pull request" de sa branche vers la branche "main", le système génére immédiatement une nouvelle version du site CCT intégrant les mises à jour publiées sur le site web Intranet. 
+
+Ce contenu étant mis à disposition "en l'état", un contrôle de cohérence sera réalisé par les équipes d'Architecture d'Entreprise. 
+
+Suite à leur validation, les contenus déjà disponibles sur le site Web Intranet seront estampilés "officiels" et dupliqués sur le site Web Internet.
+
 Ce contenu est aussi rendu disponible au format PDF. 
 
 
