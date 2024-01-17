@@ -1,9 +1,9 @@
 ---
-title: Pour commencer
+title: Présentation générale
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
-  key: pour commencer
+  key: Présentation générale
   parent: Présentation
   order: 2
 ---
@@ -246,5 +246,6 @@ des chefs de projets
 :::callout Thèmes
 [Après cette saine lecture découvrons les](../blog)
 :::
+
 
 {% include "components/back_to_top.njk" %}

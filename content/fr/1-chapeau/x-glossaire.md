@@ -1,3 +1,15 @@
+---
+title: Glossaire
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: Glossaire
+  parent: Présentation
+  order: 5
+---
+
+
+
 # Glossaire des termes du CCT
 
 |**Terme**|**Description / définition**|
@@ -64,3 +76,7 @@
 |VPN|Virtual Private Network, réseau privé virtuel (RPV) : Le principe du RPV consiste à créer un réseau privé au sein d'un réseau public. Cette démarche existe depuis longtemps : les opérateurs s'en servent pour gérer les lignes privées de leurs clients au sein des mêmes « tuyaux ». Aujourd'hui, on parle surtout de réseaux privés virtuels sur Internet. Les RPV mettent en œuvre des mécanismes de contrôle d'accès (authentification des utilisateurs) et assurent la confidentialité des données (cryptographie). Le terme de réseau privé virtuel s'applique aussi au réseau téléphonique : les opérateurs font ainsi transiter sur le réseau public des services évolués de téléphonie jusque-là cantonnés au réseau privé de l'entreprise appel en numérotant uniquement l'extension, renvoi d'appel, conversation à plusieurs, etc. Cette technologie s'étend aussi aux mobiles.|
 |Windows Server|Windows Server est un système multi-tâches, multi-utilisateurs qui dans ses fonctionnalités peut se comparer au système UNIX/Linux. Il présente l’avantage que certains logiciels soient moins chers que leur équivalent fonctionnant sous UNIX, et plus rarement, Linux. Par ailleurs, la quasi-totalité des éditeurs proposent des versions de leurs produits pouvant tourner sur serveur Windows.|
 
+
+
+
+{%include "components/back_to_top.njk" %}

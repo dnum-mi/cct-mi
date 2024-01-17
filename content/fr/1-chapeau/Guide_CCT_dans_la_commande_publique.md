@@ -62,3 +62,7 @@ De nombreux clausiers sont disponibles sur étagère. Quelques références suiv
 - Pour information : [Publications de l'Agence du Patrimoine Immatériel de l'État (APIE)](https://www.economie.gouv.fr/apie/publications)
 
 **Remarque :** le contenu des offres de service est mis à disposition du soumissionnaire en tant que de besoin.
+
+
+
+{%include "components/back_to_top.njk" %}

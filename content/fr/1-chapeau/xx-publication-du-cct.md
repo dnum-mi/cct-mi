@@ -1,3 +1,10 @@
+---
+title: Publication du CCT
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+
 # Manuel de publication du CCT
 
 ## Génération et publication sur  l'Intranet du MIOM
@@ -24,4 +31,4 @@ Après corrections apportées par le responsable des contenus, et validation par
 
 Les contenus du site web sont alors déployés sur l'Internet.
 
-
+{%include "components/back_to_top.njk" %}

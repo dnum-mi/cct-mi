@@ -1,11 +1,11 @@
 ---
-title: CCT dans la passation des marchés publics
+title: Referentiel des normes
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
-  key: CCT dans la passation des marchés publics
+  key: Referentiel des normes
   parent: Présentation
-  order: 3
+  order: 4
 ---
 
 

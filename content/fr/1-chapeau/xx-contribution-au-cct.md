@@ -1,3 +1,13 @@
+---
+title: Contribuer au CCT
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: Contribuer au CCT
+  parent: Présentation
+  order: 6
+---
+
 # Manuel de gestion des contenus du CCT
 
 ## Processus complet d'intégration et de publication
@@ -152,3 +162,4 @@ Ce contenu est aussi rendu disponible au format PDF.
 
 
 
+{%include "components/back_to_top.njk" %}

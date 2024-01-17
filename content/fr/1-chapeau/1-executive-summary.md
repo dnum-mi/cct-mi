@@ -36,3 +36,4 @@ Pour un accès rapide aux documents du CCT correspondant à votre besoin, vous p
 
 
 
+{%include "components/back_to_top.njk" %}
