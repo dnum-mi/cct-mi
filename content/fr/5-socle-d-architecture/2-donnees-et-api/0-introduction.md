@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: services et données
-  parent: Socle Architecture
+  parent: Socle architecture
   order: 2
 ---
 

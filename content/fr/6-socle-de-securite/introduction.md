@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: sécurité
-  parent: Socle Sécurité
+  parent: Socle sécurité
   order: 3
 ---
 
