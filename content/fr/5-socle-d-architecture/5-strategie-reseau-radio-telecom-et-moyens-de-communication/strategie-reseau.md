@@ -1,11 +1,11 @@
 ---
-title: Sécurité
+title: doctrine api
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
-  key: sécurité
-  parent: Socle
-  order: 3
+  key: doctrine api
+  parent: Socle Archi
+  order: 5
 ---
 
 

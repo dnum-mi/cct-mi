@@ -1,3 +1,14 @@
+---
+title: Contexte utilisateur
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: Contexte utilisateur
+  parent: Socle archi
+  order: 1
+---
+
+
 # Pilier utilisateur - Introduction  
 
 L'utilisateur, qu'il soit un usager / citoyen, un agent, une entreprise ou une association (dans les deux cas une personne morale) doit être le premier souci du concepteur d'une nouvelle application.
@@ -16,3 +27,6 @@ Cette rubrique détaille les éléments suivants :
     1.3 Identification d'une personne morale (association ou entreprise)
 2. Prise en compte de l'expérience usager et des enjeux liés à l'accessibilité
 3. Mise en place d'une chaîne de soutien à l'utilisateur
+
+
+{% include "components/back_to_top.njk" %}

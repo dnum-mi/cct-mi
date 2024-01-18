@@ -1,3 +1,11 @@
+---
+title: Expérience utilisateur et accessibilité
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+
+
 # Utilisateur : expérience utilisateur et accessibilité
 
   
@@ -66,3 +74,6 @@ Pour toute demande complémentaire, ou pour tout accompagnement sur ce  sujet, l
 |1219|RG|La charte graphique de DSFR (Design de Système de l’État) s'applique aux applications WEB.|
 |1230|RG|Toutes les applications doivent se conformer, sans conditions, aux critères du  Référentiel Général d'Amélioration de l’Accessibilité (RGAA) disponible sur le site : <https://accessibilite.numerique.gouv.fr/>|
 
+
+
+{% include "components/back_to_top.njk" %}

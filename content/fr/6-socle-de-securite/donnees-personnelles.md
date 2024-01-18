@@ -1,5 +1,5 @@
 ---
-title: données et api
+title: Gestion des données personnelles  
 layout: layouts/page.njk
 showBreadcrumb: true
 ---

@@ -1,11 +1,11 @@
 ---
-title: Architecture
+title: Exigences d'architecture
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
-  key: architecture
-  parent: Socle
-  order: 2
+  key: exigences d'architecture
+  parent: Socle Archi
+  order: 4
 ---
 
 Voici une solution d'architecture applicative dans un environnement Kubernetes et décrite grâce à mermaid<SPACE>:

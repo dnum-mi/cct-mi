@@ -4,8 +4,8 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: services et données
-  parent: Données
-  order: 1
+  parent: Socle archi
+  order: 2
 ---
 
 # Introduction
