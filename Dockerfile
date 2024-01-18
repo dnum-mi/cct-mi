@@ -45,5 +45,6 @@ FROM nginxinc/nginx-unprivileged
 WORKDIR /usr/share/nginx/html/
 
 COPY --from=builder /usr/src/app/_site ./
+COPY --from=builder /usr/src/app/_site/fr/index.html ./index.html
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]

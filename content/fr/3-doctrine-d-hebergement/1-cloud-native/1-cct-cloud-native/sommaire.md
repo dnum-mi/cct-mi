@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: cloud pi native
-  parent: Cloud au centre
+  parent: Offres d'hébergement
   order: 1
 ---
 

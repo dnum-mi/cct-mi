@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: exigences d'architecture
-  parent: Socle Archi
+  parent: Socle archi
   order: 4
 ---
 

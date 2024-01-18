@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: Cloud au centre
-  order: 4
+  key: Socle archi
+  order: 3
 permalink: false
 ---

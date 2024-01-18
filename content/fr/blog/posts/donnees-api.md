@@ -11,7 +11,7 @@ tags:
 {% from "components/component.njk" import component with context %}
 <div>
 {{ component("card", {
-    url: "/donnees-api/introduction",
+    url: "",
     title: "",
     description: "Toute application offre des services et manipule des données, des concepts métier, qui jouent souvent un rôle plus large et plus durable que l'application elle-même.",
     tags: [],
