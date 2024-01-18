@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: Contexte utilisateur
-  parent: Socle archi
+  parent: Socle architecture
   order: 1
 ---
 

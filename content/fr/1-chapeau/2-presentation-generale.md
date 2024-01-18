@@ -70,11 +70,10 @@ Ce CCT chapeau doit permettre aux Concepteurs/Développeurs, architectes, chefs 
 
 Ce document représente le document « chapeau » du CCT qui vise à faire le lien vers d’autres documents, selon les offres du MIOM et interministériel, dont chacun d’eux est couplé d’un guide de bonnes pratiques et d’une liste d’annexes et d’exigences.
 Pour plus de flexibilité dans l’évolution et dans l’applicabilité du CCT, celui-ci est scindé en plusieurs documents dont l’architecture est détaillée dans le chapitre 1.3. Ce document « chapeau » vise à faire le lien vers d’autres documents listés ci-dessous dont chacun d’eux est couplé d’une liste d’annexes et d’exigences.
-- Environnements numériques de travail
-- Legacy
-- Cloud Native
-- Guides de bonnes pratiques d’architecture
-- Guides de bonnes pratiques de sécurité
+- [Environnements numériques de travail](../4-environnement-numerique-de-travail/introduction/)
+- [Offres d'hebergement](../3-doctrine-d-hebergement/introduction/)
+- [Socle d’architecture](../5-socle-d-architecture/Introduction/)
+- [Socle de sécurité](../6-socle-de-securite/introduction)
 
 ## Architecture documentaire et applicabilité selon les cas
 

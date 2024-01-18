@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: Enregistrer un identifiant unique au registre international
-  parent: Socle archi
+  parent: Socle Architecture
   order: 6
 ---
 

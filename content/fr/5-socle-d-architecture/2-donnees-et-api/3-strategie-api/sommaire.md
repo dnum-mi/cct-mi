@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: doctrine api
-  parent: Socle Archi
+  parent: Socle Architecture
   order: 2
 ---
 

@@ -5,24 +5,21 @@ showBreadcrumb: true
 eleventyNavigation:
   key: environnement numérique de travail de l'agent
   parent: Environnement Numérique de Travail
-  order: 1
+  order: 2
 ---
 
 # L'environnement numérique de travail (ENT)
 
 ## Définition de l’ENT
-L’Environnement Numérique de Travail (ENT) correspond à **l’ensemble des ressources, matériels, outils et services transverses mis à disposition des agents du Ministère de l’Intérieur et des Outre-Mer, leur permettant d’accéder aux informations, de créer ou modifier des fichiers, de communiquer, de collaborer sur des projets, en mobilité ou
-dans les locaux administratifs, dans un cadre sécurisé.**
+L’Environnement Numérique de Travail (ENT) correspond à **l’ensemble des ressources, matériels, outils et services transverses mis à disposition des agents du Ministère de l’Intérieur et des Outre-Mer, leur permettant d’accéder aux informations, de créer ou modifier des fichiers, de communiquer, de collaborer sur des projets, en mobilité ou dans les locaux administratifs, dans un cadre sécurisé.**
 
 **L’ENT permet de faciliter les communications, la collaboration et les échanges quotidiens.**
 
 **L’ENT doit répondre aux normes de sécurité imposées par l’ANSSI.**
 
-Le remplacement des applications client-serveur vers des services en ligne engendre de plus fortes implications de sécurité et de confidentialité des données. Avec la doctrine « Cloud au centre », la sécurisation de l’ENT est en enjeu majeur. Le chiffrement des outils nomades de type Noemi, Ubiquity (GN), Hesperis, Call-MI et NEO revêt par
-conséquent un caractère obligatoire.
+Le remplacement des applications client-serveur vers des services en ligne engendre de plus fortes implications de sécurité et de confidentialité des données. Avec la doctrine « Cloud au centre », la sécurisation de l’ENT est en enjeu majeur. Le chiffrement des outils nomades de type Noemi, Ubiquity (GN), Hesperis, Call-MI et NEO revêt par conséquent un caractère obligatoire.
 
-Il convient également de rappeler et d’imposer à tous les Systèmes d’Information (SI) le respect des normes d’interopérabilité et de sécurité, et ce dès le début de la phase de développement (security by design). A ce titre, la maîtrise d’ouvrage de chaque SI est responsable de la compatibilité aux normes précitées pour les nouveaux SI comme pour les plus anciens qu’il conviendra de faire évoluer, pour garantir la sécurité des SI et
-permettre l’accès à l’ensemble des postes de travail, sans imposer la moindre adhérence à un logiciel, format, version, outil ou à un système d’exploitation.
+Il convient également de rappeler et d’imposer à tous les Systèmes d’Information (SI) le respect des normes d’interopérabilité et de sécurité, et ce dès le début de la phase de développement (security by design). A ce titre, la maîtrise d’ouvrage de chaque SI est responsable de la compatibilité aux normes précitées pour les nouveaux SI comme pour les plus anciens qu’il conviendra de faire évoluer, pour garantir la sécurité des SI et permettre l’accès à l’ensemble des postes de travail, sans imposer la moindre adhérence à un logiciel, format, version, outil ou à un système d’exploitation.
 
 Les API permettant la communication entre logiciels devront être de type API Rest.
 
@@ -30,8 +27,7 @@ Le développement des applications web devra obligatoirement intégrer le format
 L’accessibilité est un aspect clé de l’ENT car elle garantit que tous les utilisateurs, y compris les personnes en situation de handicap, puissent accéder à l’ensemble des fonctionnalités et services de l’ENT de manière équitable.
 
 Il conviendra de :
-- s’assurer de l’existence de fonctionnalités permettant d’ajuster la lisibilité des contenus à la convenance de l’utilisateur, par exemple en autorisant l’agrandissement des caractères, la présence d’alternatives textuelles aux médias (images, vidéos et podcasts), la bonne sonorisation des contenus par un formatage compatible avec les
-aides techniques employées par les agents (lecteurs d’écran et plages braille) ;
+- s’assurer de l’existence de fonctionnalités permettant d’ajuster la lisibilité des contenus à la convenance de l’utilisateur, par exemple en autorisant l’agrandissement des caractères, la présence d’alternatives textuelles aux médias (images, vidéos et podcasts), la bonne sonorisation des contenus par un formatage compatible avec les aides techniques employées par les agents (lecteurs d’écran et plages braille) ;
 - s’assurer que les fonctionnalités de publication de contenus permettent de publier des contenus accessibles ;
 - veiller à proposer des interfaces avec un contraste suffisant ;
 - rédiger les contenus dans un langage facile à lire et à comprendre ;
