@@ -33,7 +33,7 @@ Le deuxième chapitre défini le cadre d’applicabilité de ce CCT sur les diff
 Pour un accès rapide aux thèmes du CCT correspondant à votre besoin, vous pouvez
 vous référer au tableau ci-dessous.
 
-<img src="/img/cct-themes.png">
+<img src="../images/cct-themes.png">
 
 <br>
 
@@ -45,7 +45,7 @@ Dans le contexte actuel de transformation numérique, le SI du MIOM fait face à
 Dans le but de disposer un SI adapté et agile, le MIOM a posé un ensemble de normes techniques et des recommandations de nature, formalisés dans un document de Cadre de Cohérence Technique (CCT), pour le développement de nouvelles applications compatibles avec ces normes et hébergées sur son infrastructure, et de services de qualité qui répondent aux besoins des métiers et déployables rapidement et à coûts réduits. Ce type d’applications à l’état de l’art et appelées « Cloud Native » est systématiquement privilégié pour les nouveaux projets et évolutions, dans une stratégie « Cloud First ».
 
 <br>
-<img src="/img/cct-2.png">
+<img src="../images/cct-2.png">
 
 <br>
 <br>
@@ -90,12 +90,12 @@ Les règles et exigences du CCT s’appliquent différemment selon la constituti
 l’application : a-t-elle une interface « client lourd » ? Une implémentation côté serveur ? Sur Cloud Native ou en Legacy ?
   - Dans le cas d’une nouvelle application ou application existante avec des évolutions majeures (définir ce qu’est une évolution majeure) à intégrer :
 
-<img src="/img/cct-themes.png">
+<img src="../images/cct-themes.png">
 
 *Figure: Les documents du CCT à utiliser en fonction des types d'application*.
 
-    - Dans le cas d’une application existante avec des évolutions mineures (définir ce
-qu’est une évolution mineure) à intégrer, quelque soit le type de solution (2.a, 2.b,
+
+  - Dans le cas d’une application existante avec des évolutions mineures (définir ce qu’est une évolution mineure) à intégrer, quelque soit le type de solution (2.a, 2.b,
 2.c, 2.d ou 2.e) le cadre d’applicabilité sera revu selon les spécificités de chaque
 application et des évolutions.
 
@@ -148,7 +148,7 @@ de la notation des offres proposés dans le guide mentionné plus haut)
 
 ## Utilisation du CCT au sein des projets et des processus
 
-<img src="/img/cct-cycle-de-vie-des-applications.png">
+<img src="../images/cct-cycle-de-vie-des-applications.png">
 
 *Figure : Focus sur les utilisations du CCT au sein cycle de vie d’une application*
 
