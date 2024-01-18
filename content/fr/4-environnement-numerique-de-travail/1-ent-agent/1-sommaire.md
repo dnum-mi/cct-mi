@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: environnement numérique de travail de l'agent
-  parent: Socle
+  parent: Environnement Numérique de Travail
   order: 1
 ---
 
