@@ -1,11 +1,7 @@
 ---
-title: doctrine api
+title: Doctrine API
 layout: layouts/page.njk
 showBreadcrumb: true
-eleventyNavigation:
-  key: doctrine api
-  parent: Socle Architecture
-  order: 2
 ---
 
 ## Doctrine API

@@ -1,5 +1,5 @@
 ---
-title: Doctrine API
+title: Doctrine API - Principes
 layout: layouts/page.njk
 showBreadcrumb: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Exigences d'architecture gloabales
+title: Exigences d'architecture générales
 layout: layouts/page.njk
 showBreadcrumb: true
 ---
