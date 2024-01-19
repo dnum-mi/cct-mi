@@ -41,18 +41,17 @@ L'offre Cloud Pi Native offre les avantages suivants :
 L'offre Cloud Pi Native est destinée aux services de l'État qui souhaitent développer et déployer des applications cloud natives. 
 
 Le CCT précise les points suivants :
-- [Le Cloud Native, son contexte, les enjeux et la vision
-- [L'offre Cloud Native disponible,
-- [Les modalités d'intégration et d'exploitation,
-- [Les modalités d'hebergement,
+- [Le Cloud Native, son contexte, les enjeux et la vision,](../../3-doctrine-d-hebergement/1-cloud-native/1-cct-cloud-native/2-contexte-enjeux-vision/)
+- [L'offre Cloud Native disponible,](../../3-doctrine-d-hebergement/1-cloud-native/1-cct-cloud-native/4-presentation-offre-interministerielle-cloud-pi-native/)
+- [Les modalités d'intégration et d'exploitation,](../../3-doctrine-d-hebergement/1-cloud-native/2-integration-et-deploiement/integration-deploiement/)
+- [Les modalités d'hebergement,](../../3-doctrine-d-hebergement/1-cloud-native/3-hebergement-et-exploitation/hebergement-exploitation/)
 - Les aspects 
-  - [supervision,
-  - [stockage et sauvegarde,
-  - [sécurité des biens et des échanges,
-- Les [exigences SSI et les attentes en vu de l'homologation des solutions],
-- Les exigences d'architecture 
-  - [applicatives],
-  - [techniques et réseau](../3-doctrine-d-hebergement/).
+  - [supervision,](../../3-doctrine-d-hebergement/1-cloud-native/3-hebergement-et-exploitation/supervision/)
+  - [stockage et sauvegarde,](../../3-doctrine-d-hebergement/1-cloud-native/3-hebergement-et-exploitation/stockage-sauvegarde/)
+  - [sécurité des biens et des échanges,](../../3-doctrine-d-hebergement/1-cloud-native/4-securite/securite/)
+- Les [exigences SSI et les attentes en vu de l'homologation des solutions,](../../3-doctrine-d-hebergement/1-cloud-native/4-securite/SSI-et-homologation/)
+- Les [exigences d'architecture](../../3-doctrine-d-hebergement/1-cloud-native/5-exigences-d-architecture/exigences-architecture/)
+ 
 
 
 
