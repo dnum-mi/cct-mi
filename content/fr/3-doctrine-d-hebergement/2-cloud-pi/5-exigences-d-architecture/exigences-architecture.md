@@ -1,12 +1,11 @@
 ---
-title: Exigences d'architecture gloabales
+title: Exigences techniques Cloud PI Gen2
 layout: layouts/page.njk
 showBreadcrumb: true
 ---
 
 
-Le tableau suivant fourni les exigences qui sont valables quelque soit le mode d'hebergement
-
+Le tableau suivant fourni les exigences liés à l'hebergement sur les infrastructures Cloud PI
 |        |          |               |             |                           |
 | ------ | -------- | ------------- | ----------- | ------------------------- |
 | **ID** | **Type** | **Exigence**  | **Nature**  | **Catégorisation**        |

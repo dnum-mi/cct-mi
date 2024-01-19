@@ -1,12 +1,11 @@
 ---
-title: Exigences d'architecture gloabales
+title: Exigences techniques pour l'hebergement en SGAMI
 layout: layouts/page.njk
 showBreadcrumb: true
 ---
 
 
-Le tableau suivant fourni les exigences qui sont valables quelque soit le mode d'hebergement
-
+Le tableau suivant fourni les exigences liés à l'hebergement sur les infrastructures des SGAMI
 |        |          |               |             |                           |
 | ------ | -------- | ------------- | ----------- | ------------------------- |
 | **ID** | **Type** | **Exigence**  | **Nature**  | **Catégorisation**        |

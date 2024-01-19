@@ -1,38 +1,11 @@
 ---
-title: Exigences d'architecture
+title: Exigences techniques Cloud Native
 layout: layouts/page.njk
 showBreadcrumb: true
-eleventyNavigation:
-  key: exigences d'architecture
-  parent: Socle architecture
-  order: 4
 ---
 
-Voici une solution d'architecture applicative dans un environnement Kubernetes et décrite grâce à mermaid<SPACE>:
 
-<pre class="mermaid">
- graph LR;
- client([client])-. Ingress-managed <br> load balancer .->ingress[Ingress];
- ingress-->|routing rule|cct-mi[service 'cct-mi'];
- subgraph cluster
- ingress;
- cct-mi-->pod1[Pod];
- cct-mi-->pod2[Pod];
- end
- classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
- classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
- classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
- class ingress,cct-mi,pod1,pod2 k8s;
- class client plain;
- class cluster cluster;
-</pre>
-
-
-Le tableau suivant fourni les exigences d'architecture.
-
-
-
-
+Le tableau suivant fourni les exigences liés à l'approche Cloud Native
 
 |        |          |               |             |                           |
 | ------ | -------- | ------------- | ----------- | ------------------------- |
@@ -95,3 +68,7 @@ Le tableau suivant fourni les exigences d'architecture.
 | EX56   | **P**    | Identification utilisateur : L’application doit obligatoirement utiliser le SSO Agent disponible et/ou France connect pour les citoyens                                                                                                                                                                          | CloudNative | Code Applicatif & Image    |
 | EX57   | **I**    | Pour la persistance de données personnelles soumises au RGPD, le modèle de données intègre dès la conception, un tag RGPD, des champs dupliqués dédiés à l’anonymisation et des règles et processus d’anonymisation ainsi qu’une politique de droits associés.                                                                                                                                                                                                                                       | Ministériel | Autres normes et standards |
 | EX58   | **P**    | **L’équipe de développement respecte les règles suivantes permettant une qualité de code en progression et un maintien de la sécurité :**- minimise la portion spécifique de code développés en s’appuyant sur le catalogue des services proposés. (revoir régulièrement) - met en place une couverture de test unitaire complète du back-end  ( et fourni les moyens de vérification automatisé à la chaîne secondaire ) - mener une analyse de code systématique le plus tôt possible ( les langage et IDE modernes fournissent des fonctions de ce type ) - mener une analyse de CVE des dépendants importées. L’équipe projet met en œuvre une activité continue de refactoring du code produit. La qualité du code ne peut être décroissante. **Elle fournit les preuves** que des tests de sécurité, de qualité, de robustesse des algorithmes ont été mis en œuvre, et qu'ils n'ont pas remonté de vulnérabilités ou d'erreurs majeures. En s’appuyant notamment sur les logs des analyses des outils de la chaîne primaire. Elle fournit la preuve (ex: le document) des normes de développement et pratiques permettant de maîtriser la qualité du code produit. ( refactoring, peer review, etc.. )    | Ministériel | Modèle d'Opération         |
+
+
+
+{%include "components/back_to_top.njk" %}

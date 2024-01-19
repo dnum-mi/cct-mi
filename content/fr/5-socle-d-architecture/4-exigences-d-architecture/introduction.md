@@ -1,3 +1,13 @@
+---
+title: Exigences d'architecture
+layout: layouts/page.njk
+showBreadcrumb: true
+eleventyNavigation:
+  key: Exigences d'architecture
+  parent: Socle architecture
+  order: 4
+---
+
 Les exigences du CCT sont classées en 2 niveaux d’exigence (périmètre du Ministère de l’Intérieur) :
 
 - **P**rimordial : L’exigence est impérative et traitée administrativement.
@@ -21,4 +31,11 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 5. **Infrastructure**: exigences et prérequis concernant l’infrastructure sous-jacente (notamment Kubernetes)
 6. **Services mutualisés Applicatifs et d'Infrastructure**: exigences d’intégration aux services centralisés du Ministère de l’Intérieur, permettant une homogénéisation de la production, un meilleur contrôle et une maîtrise de la dette technique
 
+Les exigences sont réparties ainsi : 
+- [Les exigences qui sont valables quelque soit l'offre d'hébérgement mis en oeuvre](../exigences-architecture/) 
+- [Les exigences qui sont specifiques d'une mise en oeuvre sur le Cloud PI Native](../../../3-doctrine-d-hebergement/1-cloud-native/5-exigences-d-architecture/exigences-architecture/)
+- [Les exigences qui sont specifiques d'une mise en oeuvre sur Cloud PI Hors approche Cloud Native](../../../3-doctrine-d-hebergement/2-cloud-pi/5-exigences-d-architecture/exigences-architecture/)
+- [Les exigences qui sont spécifiques d'une mise en oeuvre au sein des SGAMI](../../../3-doctrine-d-hebergement/3-sgami/5-exigences-d-architecture/exigences-architecture/)
 
+
+{%include "components/back_to_top.njk" %}
