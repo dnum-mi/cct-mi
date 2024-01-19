@@ -33,3 +33,5 @@ La stratégie État Plateforme met en avant certains standards qui sont égaleme
 - [le format JSON](http://www.json.org/) pour la structuration des données
 
 ## [Retour au sommaire](../sommaire)
+
+{% include "components/back_to_top.njk" %}

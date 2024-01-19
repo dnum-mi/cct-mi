@@ -40,7 +40,19 @@ L'offre Cloud Pi Native offre les avantages suivants :
 
 L'offre Cloud Pi Native est destinée aux services de l'État qui souhaitent développer et déployer des applications cloud natives. 
 
-Le détail de l'offre, les services dipsonibles et les exigences d'usages sont décrits ci-après [lien].
+Le CCT précise les points suivants :
+- [Le Cloud Native, son contexte, les enjeux et la vision
+- [L'offre Cloud Native disponible,
+- [Les modalités d'intégration et d'exploitation,
+- [Les modalités d'hebergement,
+- Les aspects 
+  - [supervision,
+  - [stockage et sauvegarde,
+  - [sécurité des biens et des échanges,
+- Les [exigences SSI et les attentes en vu de l'homologation des solutions],
+- Les exigences d'architecture 
+  - [applicatives],
+  - [techniques et réseau](../3-doctrine-d-hebergement/).
 
 
 
