@@ -24,6 +24,6 @@ Toute application doit, de plus, adresser, sans conditions, les questions élém
 2. [**Analyser et valoriser les données**](../4-analyser-et-valoriser-les-donnees/) - Les données sont un patrimoine indépendamment des traitements qui leur sont appliqués. Elle doivent pouvoir être notamment croisées, analysées, anonymisées, parfois recyclées en données ouvertes. Toutes les mesures ont elles été prises pour faciliter cette valorisation ultérieure?
 3. [**Données personnelles**](../../../6-socle-de-securite/donnees-personnelles/) - Le cadre juridique relatif au traitement des données personnelles a-t-il été bien pris en compte (cf. notamment RGPD) ?
 4. [**Archivage**](../6-cycle-de-vie/) - Le cycle de vie complet des données manipulées par l'application a-t-il été pensé ?
-5. [**Intangilibité**](../5-protection-intangibilite-non-repudiation-donnees/) - Les données sensibles, juridiques, à valeur probante sont-il bien protégés et fiabilisés?
+
 
 {% include "components/back_to_top.njk" %}

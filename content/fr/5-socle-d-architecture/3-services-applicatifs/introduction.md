@@ -15,7 +15,10 @@ Les services sont les suivants :
 - [des messageries sécurisées, en instantané, basés sur des standards de chiffrement et des besoins d'authentification forte](../messagerie-securisee/),
 - [des solutions de captcha](../solutions-captcha/),
 - [des solutions de construction de site web](../construction-d-un-site-web/),
-- [des solutions d'emploi des données géographiques](../emploi-donnees-geographiques/).
+- [des solutions d'emploi des données géographiques](../emploi-donnees-geographiques/),
+- [des solutions pour gérer les documents](../gestion-documentaire/).
+ 
+
  
 
 {% include "components/back_to_top.njk" %}
