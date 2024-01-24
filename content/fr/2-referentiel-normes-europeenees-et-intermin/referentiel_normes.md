@@ -4,8 +4,8 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: Referentiel des normes
-  parent: Présentation
-  order: 4
+  parent: À propos
+  order: 6
 ---
 
 
