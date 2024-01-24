@@ -1,1 +1,1 @@
-Cet espace décrit les modalités d'intégration et de déploiement de solutions dans les infrastructures Cloud du MIOM, dans un contexte hors Cloud Native.
+Cet espace décrit les modalités d'intégration et de déploiement de solutions dans les infrastructures Cloud Pi, hors solutions Cloud Native. On y décrit notamment la Forge DC.

@@ -1,10 +1,10 @@
 ---
-title: Cloud PI Native
+title: Offre de certification - Cloud PI Native
 layout: layouts/page.njk
 showBreadcrumb: true
 ---
 
-# Certification Cloud Pi Native (travail préliminaire)
+# Certification Cloud Pi Native
 
 Inventaire des compétences nécessaires en vue d'obtenir la certification Cloud Pi Native et modalité de validation des compétences.
 

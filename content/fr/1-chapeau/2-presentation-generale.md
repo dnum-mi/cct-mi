@@ -243,7 +243,7 @@ des chefs de projets
 <br>
 
 :::callout Thèmes
-[Après cette saine lecture découvrons les](../blog/)
+[Après cette saine lecture découvrons les](../../blog/)
 :::
 
 
