@@ -22,7 +22,7 @@ Réutiliser des données, exposer des données, exposer des traitements : ces ac
 
 Le type d'interface dont il sera question dans la suite de la fiche sera ce type d'API HTTP/REST.
 
-La [Stratégie d’API](../../strategie-api/sommaire) du CCT décrit la démarche dans toute sa dimension : architecture, design, sécurité et gouvernance. 
+La [Stratégie d’API](../../strategie-api/sommaire/) du CCT décrit la démarche dans toute sa dimension : architecture, design, sécurité et gouvernance. 
 
 ### <a name="Réutilisation">Réutilisation</a>
 
@@ -94,7 +94,7 @@ Ces API doivent être exposés dans une passerelle d’API (INES, SIR) et décri
 
 Pour information, il existe des règles pertinentes dans le périmètre des référentiels de données dans le [Cadre Commun d'Architecture des Référentiels de données.](../7-Annexes/Cadre-Commun-d-Architecture-des-Referentiels-de-donnees.pdf)
 
-Le référentiel "stratégie d'API" est lui même un recueil de règles et de recommandations (ou bonnes pratiques) : [Stratégie d'API - Règles et recommandations](../../strategie-api/sommaire)
+Le référentiel "stratégie d'API" est lui même un recueil de règles et de recommandations (ou bonnes pratiques) : [Stratégie d'API - Règles et recommandations](../../strategie-api/sommaire/)
 
 {% from "components/component.njk" import component with context %}
 {{ component("table", {
