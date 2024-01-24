@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: Executive summary
-  parent: Présentation
+  parent: À propos
   order: 1
 ---
 

@@ -4,8 +4,8 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: Contribuer au CCT
-  parent: Présentation
-  order: 6
+  parent: À propos
+  order: 5
 ---
 
 # Manuel de gestion des contenus du CCT

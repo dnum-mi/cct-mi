@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: Glossaire
-  parent: Présentation
+  parent: À propos
   order: 5
 ---
 

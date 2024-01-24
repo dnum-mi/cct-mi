@@ -4,7 +4,7 @@ title: Contacts
 eleventyNavigation:
   key: Contact
   parent: À propos
-  order: 2
+  order: 6
 ---
 # Contact
 <cct@interieur.gouv.fr>

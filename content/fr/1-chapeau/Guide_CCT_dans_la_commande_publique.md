@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
   key: CCT dans la passation des marchés publics
-  parent: Présentation
+  parent: À propos
   order: 3
 ---
 

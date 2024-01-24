@@ -5,7 +5,7 @@ showBreadcrumb: true
 eleventyNavigation:
   key: Présentation générale
   parent: À propos
-  order: 1
+  order: 2
 ---
 
 À travers sa doctrine « Cloud au centre », l’État encourage l’ensemble des acteurs publics
