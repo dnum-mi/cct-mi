@@ -29,7 +29,7 @@ Le CCT du ministère de l'intérieur est constitué de nombreux contenus, mais d
 
 Le guide d'intégration liste les conditions de la bonne intégration d'une application dans l'écosystème ministériel et interministériel. Il ne porte pas, ou peu, sur l'architecture interne de ladite application mais apporte un cadre quant à ses interfaces avec l'écosystème du SI de l'État. La conformité de l'application ou du produit à ces interfaces en est un gage de réussite. Les interfaces sont classifiées dans 6 piliers que sont l'utilisateur, les données et API, la sécurité du SI, la fabrique de code, l'hébergement et les services transverses. Cf schéma ci-dessous.
 
-![Rosace](../images/CommandePubliquesAutres.png)
+![Rosace](/img/CommandePubliquesAutres.png/)
 
 Chaque pilier comporte un certain nombre de fiches de domaine qui énoncent chacune
 
