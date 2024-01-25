@@ -22,7 +22,7 @@ Par défaut les règles du CCT s’imposent. Elles peuvent être précisées dan
 
 Pour information les exigences sont organisées telles que décrites ci-dessous :
 
-![alt_text](../../../images/image7.png "image_tooltip")
+![alt_text](/img/image7.png "image_tooltip")
 
 1. **Standards & Normes industrielles et étatiques**: ensemble des exigences relatives aux normes de niveau supérieur à respecter pour toute application étatique
 2. **Code applicatif & Image**: exigences issues des “15 factors” pour garantir la conception d’une application “Cloud Native”, associées aux exigences minimales permettant de s’intégrer au contexte du Ministère de l’Intérieur
