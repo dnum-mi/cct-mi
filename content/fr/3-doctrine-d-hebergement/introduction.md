@@ -42,7 +42,7 @@ L'offre Cloud Pi Native est destinée aux services de l'État qui souhaitent dé
 
 Le CCT précise les points suivants :
 - [Le Cloud Native, son contexte, les enjeux et la vision,](../../3-doctrine-d-hebergement/1-cloud-native/1-cct-cloud-native/2-contexte-enjeux-vision/)
-- [L'offre Cloud Native disponible,](../../3-doctrine-d-hebergement/1-cloud-native/1-cct-cloud-native/4-presentation-offre-interministerielle-cloud-pi-native/)
+- [L'offre Cloud Native disponible,](../../3-doctrine-d-hebergement/1-cloud-native/2-integration-et-deploiement/offre-interministerielle-cloud-pi-native/)
 - [Les modalités d'intégration et d'exploitation,](../../3-doctrine-d-hebergement/1-cloud-native/2-integration-et-deploiement/integration-deploiement/)
 - [Les modalités d'hebergement,](../../3-doctrine-d-hebergement/1-cloud-native/3-hebergement-et-exploitation/hebergement-exploitation/)
 - Les aspects 

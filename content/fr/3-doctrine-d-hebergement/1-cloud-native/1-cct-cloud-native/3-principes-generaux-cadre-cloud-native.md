@@ -1,4 +1,4 @@
-## 3 - Principes généraux cadre Cloud Native
+## Principes généraux du cadre Cloud Native
 
 **Audience : ce paragraphe s’adresse à la communauté des concepteurs et architectes solutions, le lecteur est réputé compétent et formé sur les sujets abordés .**
 
@@ -268,3 +268,6 @@ Le schéma (indicatifs) précise l’architecture d’intégration d’une appli
 * (7b) Artefacts images & paramétrage : ensemble des ressources liées à une application ou communes ( ex : sources d’images de référence )
 * (7c) Observation : permet de collecter les données liées à l’usage pour la mise au point de l’application ou données de vie.
 * (8) Kubernetes, sous la forme d’un ou plusieurs namespace(s) isolés ou couplés : fournis l’espace d’exécution de l’application et la gestion des volumes pour le stockage bloc.
+
+
+{% include "components/back_to_top.njk" %}

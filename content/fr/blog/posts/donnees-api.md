@@ -11,7 +11,7 @@ tags:
 {% from "components/component.njk" import component with context %}
 <div>
 {{ component("card", {
-    url: "",
+    url: "/5-socle-d-architecture/2-donnees-et-api/0-introduction/",
     title: "",
     description: "Toute application offre des services et manipule des données, des concepts métier, qui jouent souvent un rôle plus large et plus durable que l'application elle-même.",
     tags: [],

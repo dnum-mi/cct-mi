@@ -1,4 +1,11 @@
-## 4 - Présentation de l’offre interMinistérielle Cloud Pi Native
+---
+title: Cloud Pi Native - Offre CI/CD
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+
+## Présentation de l’offre interMinistérielle Cloud Pi Native
 
 L’offre Cloud PI native répond aux exigences du CCT à travers un ensemble organisationnel et technique. Elle propose une offre Cloud régalienne, souveraineté, sécurisée et isolée de toute problématique juridique extra-européenne. 
 
@@ -10,11 +17,11 @@ La composition de l’offre est amenée à évoluer en termes de catalogue de se
 
 Le modèle de responsabilité est présenté ci-dessous :
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](/img/cloudnative_modele_responsabilites.png "image_tooltip")
 
 L’ensemble du code source de l’offre Cloud PI Native et sa documentation sont disponibles en open-source sous la licence MIT. Toute contribution est la bienvenue.
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](/img/cloudnative_segmentation_hebergement.png "image_tooltip")
 
 **Note** : chaque région est autonome dans son fonctionnement. Seul le service de stockage objet de type S3 est accessible sur l’ensemble des régions ministérielles. ( réplication en proximité dans le datacenter).
 
@@ -29,3 +36,6 @@ A propos des images de base nues, il est recommandé d’utiliser les versions d
 Sur les besoins "classiques" de persistance : postgres, redis, mariadb, mongodb, elastic, etc… l’approche recommandée de s’appuyer sur les opérateurs kubernetes disponibles et les objets statefullSet. 
 
 Sur le cluster de production les operators sont déployés par l’hébergeur car généralement ils requièrent les droits globaux. L’équipe projet doit vérifier les versions disponibles lors de la conception de son projet.
+
+
+{% include "components/back_to_top.njk" %}
