@@ -1,3 +1,10 @@
+---
+title: Cloud Pi Native - Contexte, enjeux et vision
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+
 ## Le contexte, les enjeux, la vision
 
 **Audience : ce paragraphe s’adresse à tout acteur considérant l’usage de l’offre Cloud Pi Native du ministère de l’intérieur, il présente les principes fondateurs. Le cloud : des nouvelles possibilités techniques, une collaboration étendue des acteurs pour répondre aux enjeux d’un contexte exigeant, incertain et accéléré.**
@@ -20,7 +27,7 @@ Le ministère de l’intérieur, l’un des premiers acteurs étatiques à avoir
 
 Les approches cloud, devops et l’agilité ont progressivement permis de concilier des postures antagonistes : les développeurs ayant besoin de pouvoir déployer fréquemment, et l’exploitation ayant au contraire besoin de stabilité et de diminuer les risques liés au changement. La clé réside dans une collaboration étendue de tous les acteurs en prenant compte de la sécurité à toutes les étapes : le devops.
 
-**Une évolution des pratiques pour un numérique efficient et éco-responsable et réactif**
+### Une évolution des pratiques pour un numérique efficient et éco-responsable et réactif
 
 Les contraintes s’accentuent sur la production de services numériques, le standard de qualité général a augmenté massivement avec les acteurs du net et industrielle qui produisent des solutions ergonomiques, sécurisées qui montent à l’échelle facilement. Un fossé important s’est creusé entre l’efficience du numérique ‘legacy’ et ce monde moderne. 
 
@@ -32,11 +39,11 @@ Le mode produit et l’agilité sont indispensables en complément de l’utilis
 
 “ _L’adoption du cloud doit s’accompagner de celle des pratiques associées à l’excellence dans la production de services numériques (proximité entre métiers et équipes informatiques, scalabilité, agilité, « devops », « continuous delivery » qui sont les garants de l’adaptation des produits à leurs utilisateurs) ;  “_
 
-**Les principales caractéristiques du modèle opérationnel Cloud Native:**
+### Les principales caractéristiques du modèle opérationnel Cloud Native
 
 Le fonctionnement évolue vers la suppression de la fragmentation des responsabilités dans la chaîne de production et l’automatisation de celui-ci. (cf mode2 proposé par le Gartner) 
 
-**L’équipe projet intégrée (équipe produit) voit ses prérogatives étendues**:
+**L’équipe projet intégrée (équipe produit) voit ses prérogatives étendues**
 * Elle est organisée autour du produit numérique livré. Elle fonctionne en modalité intégrée et de manière autonome en lien avec la vision et les contraintes fixées. 
 * Elle est composée de développeurs, architectes, ergonome (ux-design), juriste, gestionnaire du changement, etc… orchestrée par le product owner et généralement facilité par un coach / scrum master agile. Elle est focalisée sur l'ergonomie, la qualité et la performance de la solution mise à disposition des usagers. C’est le modèle **«You build it, you run it, you support it »**. (vous l’avez construit vous l’opérez )
 * Une équipe d’aide appelée “service team” qui peut être temporaire ou permanente selon la taille de produit est chargée de mettre en place l’automatisation et les environnements de travail et de production. Cette dernière doit être aguerrie à ces technologies et l’offre cloud native.

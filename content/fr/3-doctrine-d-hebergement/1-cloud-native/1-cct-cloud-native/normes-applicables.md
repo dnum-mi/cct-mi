@@ -1,3 +1,10 @@
+---
+title: Cloud Pi Native - Normes applicables
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+
 ### Les normes industrielles, institutionnelles applicables dans le contexte Cloud Native
 
 La conception de système d’information dans le cadre de l’État est encadrée par un ensemble de recommandations ou règles à mettre en œuvre.  Ces normes sont citées ci-dessous. Le lecteur est invité à vérifier qu’il dispose des versions les plus à jour.
@@ -79,3 +86,7 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
    </td>
   </tr>
 </table>
+
+
+
+{% include "components/back_to_top.njk" %}

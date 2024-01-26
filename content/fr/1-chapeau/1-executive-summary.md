@@ -20,19 +20,20 @@ Ce document représente le document « chapeau » du Cadre de Cohérence Tech
 
 Le premier chapitre de ce document décrit le contexte et les objectifs du CCT. Il donne une visibilité sur son architecture documentaire et son applicabilité selon différents cas d’usages, tout en mentionnant les domaines concernés et les acteurs ciblés ainsi que son utilisation au sein des projets et des processus du MIOM et interministériel. Le deuxième chapitre défini le cadre d’applicabilité de ce CCT sur les différentes offres de services avec les usages concernés et le dernier chapitre définit son cycle de vie et sa « gouvernance.
 
-Pour un accès rapide aux documents du CCT correspondant à votre besoin, vous pouvez vous référer au tableau ci-dessous, détaillé en chapitre 1.3
+Pour un accès rapide aux documents du CCT correspondant à votre besoin, vous pouvez vous référer au tableau ci-dessous :
 
-<div align="center">
-
-||Env. numérique de travail<br> <br> MIOM et Intermin|Legacy<br> <br> MIOM|Cloud Native<br> <br> Intermin|Guide de bonnes<br> pratiques d'archi<br> Intermin et MIOM|Guide de bonnes<br> pratiques de sécurité<br> Intermin et MIOM|
-|:----------:|:----------:|:----------:|:----------:| :----------: |:----------:|
-|Env. numérique de travail<br> *uniquement*|X|||X|X|
-|Env. numérique de travail<br> & Cloud Native|X||X|X|X|
-|Env. numérique de travail<br> & Legacy|X|X||X|X|
-|Cloud Native<br> *uniquement*|||X|X|X|
-|Legacy<br> *uniquement*||X||X|X|
-
-</div>
+{% from "components/component.njk" import component with context %}
+{{ component("table", {
+    title: "Interet des contenus du site",
+    headers: ["","Env. numérique de travail (MIOM et Intermin)", "Legacy / Cloud Pi (MIOM)","Cloud Native (Intermin)","Guide de bonnes pratiques d'archi (Intermin et MIOM)","Guide de bonnes pratiques de sécurité (Intermin et MIOM)"],
+    data: [
+      ["Env. numérique de travail *uniquement*","X","","","X","X"],
+      ["Env. numérique de travail & Cloud Pi Native","X","","X","X","X"],
+      ["Env. numérique de travail & Legacy/Cloud Pi","X","X","","X","X"],
+      ["Cloud Pi Native *uniquement*","","","X","X","X"],
+      ["Legacy/Cloud Pi *uniquement*","","X","","X","X"]
+    ]
+}) }}
 
 
 

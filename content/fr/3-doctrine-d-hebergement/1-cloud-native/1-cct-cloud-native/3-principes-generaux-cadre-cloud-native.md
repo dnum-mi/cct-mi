@@ -1,3 +1,10 @@
+---
+title: Cloud Pi Native - Principes généraux
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+
 ## Principes généraux du cadre Cloud Native
 
 **Audience : ce paragraphe s’adresse à la communauté des concepteurs et architectes solutions, le lecteur est réputé compétent et formé sur les sujets abordés .**
