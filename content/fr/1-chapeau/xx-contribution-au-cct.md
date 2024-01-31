@@ -98,7 +98,6 @@ Le document est contrôlé et maintenu en cohérence par l'equipe d'Architecture
 Si une erreur est décelée, un relecteur peut soumettre des demandes d'évolutions ou des corrections via l'ouverture d'un fil de discussion [Issue] publié sur le dépôt Git.
 
 
-
 ## La publication 
 ### Automatisation de la publication sur le site web Intranet
 
