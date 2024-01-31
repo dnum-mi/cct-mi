@@ -178,17 +178,23 @@ d‘applications existantes.
 non compatibles avec les nouvelles normes. Elle ne pourra être utilisée pour
 des nouveaux usages que de manière exceptionnelle et dérogatoire.
 
-    |Critères de comparaison|Legacy|Cloud Native|
-    |--------|----------|------|
-    | **Modèle de responsabilité**|  Responsabilité entièrement portée par le MIOM à partir de l’intégration de l’application, sur le déploiement et l’exploitation| Responsabilité partagée avec une autonomisation du développeur « you build it,you run it »|
-    |**Processus de déploiement**| Tests, intégration et déploiement manuels ou semi-automatisés|Tests, intégration et déploiements automatisés Déploiements fréquents |
-    |**Exigences et contrôle**|Cadre et exigences sur l’ensemble des couches de l’application Contrôle complet de l’application et infrastructure, homologation de bout en bout| Cadre et exigences focalisés sur les interfaces de l’application et les données exposées Liberté laissée au développeur tant que les interfaces sont respectées|
-    |**Consommation service transverse**|Services transverses à mettre en œuvre et intégrer «manuellement»| Intégration native des services sur étagère et automatiquement|
-    |**Valorisation de la donnée**|Intégration «manuelle» aux services d’exposition de la donnée|Capacités «sur étagère» et automatisée d’exposition des données|
-    |**Observabilité**|Logs non normés, peu ou pas centralisés.|Centralisation systématique du monitoring et des logs de l’infrastructure et des applications permettant une vision 360 sur l’application Normalisation des logs (techniques, métiers, sécurité)|
-    |**Processus de run**|Exploitation des applications dans un modèle **«pet»**, configurations manuelles et réparation des incidents au sein des serveurs|Exploitation dans un modèle   **«cattle»**, détection automatisée des problèmes (health check) et reconstruction des containers plutôt que réparation|
+{% from "components/component.njk" import component with context %}
+{{ component("table", {
+    title: "",
+    headers: ["Critères de comparaison","Hors Cloud Native","Cloud Native"],
+    data: [
+      ["Modèle de responsabilité","Responsabilité entièrement portée par le MIOM à partir de l’intégration de l’application, sur le déploiement et l’exploitation","Responsabilité partagée avec une autonomisation du développeur 'you build it,you run it'"],
+      ["Processus de déploiement","Tests, intégration et déploiement manuels ou semi-automatisés","Tests, intégration et déploiements automatisés Déploiements fréquents"],
+      ["Exigences et contrôle","Cadre et exigences sur l’ensemble des couches de l’application Contrôle complet de l’application et infrastructure, homologation de bout en bout","Cadre et exigences focalisés sur les interfaces de l’application et les données exposées Liberté laissée au développeur tant que les interfaces sont respectées"],
+      ["Consommation service transverse","Services transverses à mettre en œuvre et intégrer 'manuellement'","Intégration native des services sur étagère et automatiquement"],
+      ["Valorisation de la donnée","Intégration 'manuelle' aux services d’exposition de la donnée","Capacités 'sur étagère' et automatisée d’exposition des données"],
+      ["Observabilité","Logs non normés, peu ou pas centralisés","Centralisation systématique du monitoring et des logs de l’infrastructure et des applications permettant une vision 360 sur l’application Normalisation des logs (techniques, métiers, sécurité)"],
+      ["Processus de run","Exploitation des applications dans un modèle 'pet', configurations manuelles et réparation des incidents au sein des serveurs","Exploitation dans un modèle 'cattle', détection automatisée des problèmes (health check) et reconstruction des containers plutôt que réparation"]
+    ]
+}) }}
 
-  
+
+      
 ### Détail sur les contrôles et validation en fonction de l’application
 
 - Pour les grandes applications:
