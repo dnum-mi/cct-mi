@@ -190,7 +190,7 @@ Les logiciels ou applications pour les smartphones sont disponibles depuis le ma
 
 #### Logiciels, outils et services retenus
 
-Se référer au chapitre dédié dans le [référentiel des produits](../../referentiel-des-produits/cct_pro.md)
+Se référer au chapitre dédié dans le [référentiel des produits](../../referentiel-des-produits/cct_pro/)
 
 La [feuille de route sur les produits de l'ENT](../7-Annexes/Feuille_de_route_des_produits_de_l_ENT_2023.pdf) est disponible au travers de ce lien.
 
@@ -200,6 +200,6 @@ Les usages les plus représentatifs de l’ENT sont distingués comme suit :
 
 ## Documents annexés
 
-Les regles présentés dans cette [annexe complètent le document.](../7-Annexes/annexe_ENTA_regles.md)
+Les regles présentés dans cette [annexe complètent le document.](../7-Annexes/annexe_ENTA_regles/)
 
 {% include "components/back_to_top.njk" %}

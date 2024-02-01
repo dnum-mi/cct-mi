@@ -249,7 +249,11 @@ des chefs de projets
 <br>
 
 :::callout Thèmes
+<<<<<<< HEAD:content/fr/1-chapeau/2-presentation-generale.md
 [Après cette saine lecture découvrons les](../../blog/)
+=======
+[Après cette saine lecture découvrons les](../blog/)
+>>>>>>> main:content/fr/chapeau.md
 :::
 
 

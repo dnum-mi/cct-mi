@@ -33,5 +33,8 @@ La stratégie État Plateforme met en avant certains standards qui sont égaleme
 - [le format JSON](http://www.json.org/) pour la structuration des données
 
 ## [Retour au sommaire](../sommaire/)
+<<<<<<< HEAD:content/fr/5-socle-d-architecture/2-donnees-et-api/3-strategie-api/introduction.md
 
 {% include "components/back_to_top.njk" %}
+=======
+>>>>>>> main:content/fr/strategie-api/introduction.md
