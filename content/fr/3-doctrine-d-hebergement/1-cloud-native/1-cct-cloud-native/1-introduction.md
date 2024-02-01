@@ -51,7 +51,7 @@ Les différents documents qui constituent le cadre de cohérence technique :
 
 - [Contexte enjeux et vision](../2-contexte-enjeux-vision/)
 - [Principes généraux](../3-principes-generaux-cadre-cloud-native/)
-- [Présentation de l'offre](../../2-integration-et-deploiement/offre-interministerielle-cloud-pi-native/)
+- <a href="https://cloud-pi-native.fr" target="_blank"> Présentation de l'offre</a>
 
 
 {% include "components/back_to_top.njk" %}
