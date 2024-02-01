@@ -12,9 +12,9 @@ tags:
 {% from "components/component.njk" import component with context %}
 <div>
 {{ component("card", {
-    url: "",
+    url: "/3-doctrine-d-hebergement/2-cloud-pi/1-cct-cloud-pi/sommaire/",
     title: "Legacy",
-    description: "",
+    description: "L'offre Cloud Pi, est l'offre Infrastructure à la demande du Ministère de l'Intérieur. Sont concernés par ces informations, les applications existantes, placés dans la première génération de Cloud mise en oeuvre au MIOM, et celles qui ne peuvent appliquer la démarche Cloud Native.",
     tags: [],
     date: "2023-06-21" | jsDateObject,
     badges: [],

@@ -1,0 +1,2 @@
+Les éléments décrits ici sont les normes, les standards et les recommandations techniques à respecter pour la mise en œuvre et la maintenance d'un système d'information dans sur le Cloud Pi, sans application de la demarche Cloud Native. 
+Sont concernés par ces informations, les applications existantes, placés dans la première génération de Cloud mise en oeuvre au MIOM, et celles qui ne peuvent appliquer la démarche Cloud Native.

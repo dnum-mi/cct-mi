@@ -13,8 +13,7 @@ tags:
 {% from "components/component.njk" import component with context %}
 <div>
 {{ component("card", {
-    url: false,
-    externalUrl: "https://github.com/cloud-pi-native/documentation",
+    url: "/3-doctrine-d-hebergement/1-cloud-native/1-cct-cloud-native/1-introduction/",
     title: "Cloud PI Native",
     description: "L'objectif est d'accélérer la transformation numérique au bénéfice des usagers et dans le strict respect de la cybersécurité et de la protection des données des citoyens et des entreprises.
     L'offre interministérielle Cloud π Native, offre les services d'une plateforme DevSecOps complète afin de suivre le cycle de vie complet de son projet.",

@@ -1,0 +1,2 @@
+Les éléments décrits ici sont les normes, les standards et les recommandations techniques à respecter pour la mise en œuvre et la maintenance d'un système d'information dans un contexte d'hebergement décentralisé. 
+Sont concernés par ces informations, les applications developpés dans les territoires, placés dans les datacenter des SGAMI.
