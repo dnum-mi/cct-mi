@@ -79,19 +79,18 @@ Le responsable peut se connecter sur le dépôt git du CCT. Le rôle d'**éditeu
 ## Processus complet d'intégration et de publication
 Le processus est le suivant : 
 
-```mermaid
-    flowchart LR
+<pre class="mermaid">
+     flowchart TD
     A[Collecte] --> B[Mise à jour]
     A -->|nouveau besoins ou changements demandés| A
-    B -->|Generation et publication| C
-    C-->|Publication du site web Intranet| D
-    D --> E[Contrôle de cohérence]
+    B -->|Generation et publication du site | C[Site test intranet]
+    C --> E[Contrôle de cohérence]
     E -->|correction nécessaire| A
     E -->|validation| F[Generation et publication]
-    F --> G[Support Pdf] 
+    F --> G[Support Pdf]
     F --> H[Site Web Internet]
+</pre>
 
-```
 ## Maintien en cohérence du CCT, contrôle et corrections
 Le document est contrôlé et maintenu en cohérence par l'equipe d'Architecture d'Entreprise.
 
