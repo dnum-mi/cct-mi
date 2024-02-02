@@ -12,7 +12,7 @@ eleventyNavigation:
 
 Toute application offre des services et manipule des données, des concepts métier, qui jouent souvent un rôle plus large et plus durable que l'application elle-même. 
 
-La [Doctrine API](../../2-donnees-et-api/3-strategie-api/sommaire.md) décrit les principes, les pratiques et les règles que les développeurs doivent suivrent pour garantir que les API sont conçus développées et maintenues de manière cohérente et efficace.
+La [Doctrine API](../../2-donnees-et-api/3-strategie-api/sommaire/) décrit les principes, les pratiques et les règles que les développeurs doivent suivrent pour garantir que les API sont conçus développées et maintenues de manière cohérente et efficace.
 
 Toute application doit, de plus, adresser, sans conditions, les questions élémentaires suivantes :
 
