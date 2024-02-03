@@ -53,18 +53,30 @@ Une adaptation des fichiers markdown est nécessaire.
 
 - sans menu:
 
-```
+```yaml
 ---
 title: données et api
 layout: layouts/page.njk
 showBreadcrumb: true
 ---
-
 ```
+
+ou
+
+```yaml
+---
+title: données et api
+layout: layouts/page_date_readtime.njk
+showBreadcrumb: true
+date: Last Modified
+---
+```
+
+> Le layout personnalisé inclue la date de publication et le temps de lecture
 
 - référencement dans un menu:
 
-```
+```yaml
 ---
 title: Pour commencer
 layout: layouts/page.njk
@@ -75,6 +87,23 @@ eleventyNavigation:
   order: 1
 ---
 ```
+
+ou
+
+```yaml
+---
+title: Pour commencer
+layout: layouts/page_date_readtime.njk
+showBreadcrumb: true
+date: Last Modified
+eleventyNavigation:
+  key: pour commencer
+  parent: Documentation
+  order: 1
+---
+```
+
+> Le layout personnalisé inclue la date de publication et le temps approximatif de lecture
 
 #### bas de page
 
