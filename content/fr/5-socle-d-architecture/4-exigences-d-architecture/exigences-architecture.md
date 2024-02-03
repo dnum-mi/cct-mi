@@ -1,7 +1,8 @@
 ---
 title: Exigences d'architecture générales
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 

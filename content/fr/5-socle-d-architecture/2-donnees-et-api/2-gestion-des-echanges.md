@@ -1,7 +1,8 @@
 ---
 title: Gestion des échanges
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 # Gestion des échanges 

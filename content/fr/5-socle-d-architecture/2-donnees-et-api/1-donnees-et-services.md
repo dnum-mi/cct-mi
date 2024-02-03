@@ -1,7 +1,8 @@
 ---
 title: données et services
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 # Concevoir une application orientée données et services  

@@ -1,7 +1,8 @@
 ---
 title: Environnement Numérique de Travail de l'agent
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: environnement numérique de travail de l'agent
   parent: Environnement Numérique de Travail

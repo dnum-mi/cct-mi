@@ -1,7 +1,8 @@
 ---
 title: Cycle de vie de la donnée et archivage
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 # Cycle de vie de la donnée et archivage

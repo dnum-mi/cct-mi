@@ -1,7 +1,8 @@
 ---
 title: Strategie reseau et moyens de communication
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Strategie reseau et moyens de communication
   parent: Socle architecture

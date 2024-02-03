@@ -1,7 +1,8 @@
 ---
 title: Offre de déploiement et d'intégration continu (IaaS) - Forge DC
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 # La forge DNUM[/ DC]

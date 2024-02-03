@@ -1,7 +1,8 @@
 ---
 title: Sécurité
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: sécurité
   parent: Socle sécurité

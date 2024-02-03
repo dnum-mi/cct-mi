@@ -1,7 +1,8 @@
 ---
 title: Cloud Pi Native - Principes généraux
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 
