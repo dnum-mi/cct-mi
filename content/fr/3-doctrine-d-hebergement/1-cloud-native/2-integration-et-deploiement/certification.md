@@ -1,7 +1,8 @@
 ---
 title: Offre de certification - Cloud PI Native
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 # Certification Cloud Pi Native

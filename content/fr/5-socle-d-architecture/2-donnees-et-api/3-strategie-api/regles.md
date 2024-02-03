@@ -1,7 +1,8 @@
 ---
 title: Doctrine API - Rêgles
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 Les règles définies dans cette partie se veulent une déclinaison opérationnelle des principes définis précédemment. Ces différentes règles ont été mises à jour en reprenant pour partie le guide API publié par le [Government Digital Service (GDS)](https://www.gov.uk/guidance/gds-api-technical-and-data-standards) anglais, ainsi que certains éléments référencés dans le [guide de design d'API d'Octo](https://blog.octo.com/designer-une-api-rest/).
@@ -149,29 +150,32 @@ De manière plus spécifique, une API RESTful doit respecter les directives suiv
   - GET pour la consultation/lecture
   - PUT pour la mise à jour
   - DELETE pour la suppression
-- utilisation des codes retour HTTP suivants :
 
+{% from "components/component.njk" import component with context %}
+{{ component("table", {
+    title: "Utilisation des codes retour HTTP ",
+    headers: ["Code", "Message","Description"],
+    data: [
+      ["102","Processing","Traitement en cours (évite que le client dépasse le temps d’attente limite)."],
+      ["200","OK","Code de retour par défaut en cas de succès"],
+      ["201","Created","Code retour en cas de succès du traitement et de la création d’une nouvelle ressource"],
+      ["202","Accepted","Indique que la requête a bien été prise en compte et sera traitée ultérieurement. Ce mode de fonctionnement est principalement utilisé dans le cas d’échanges asynchrones et nécessite la mise en place d’un mécanisme de Call Back côté client"],
+      ["204","No Content","Indique que la requête a bien été traitée mais qu’il n’y a pas de résultat à retourner. C’est par exemple le cas lors d’action de suppression"],
+      ["206","Partial Content","Indique qu'une partie de la ressource a été transmise. Utilisé en cas de pagination"],
+      ["304","Not Modified","Document non modifié depuis la dernière requête."],
+      ["400","Bad Request","Code d’erreur générique en cas d’informations non valides fournies au service"],
+      ["401","Unauthorized","Code utilisé par les services nécessitant une autorisation lorsque l’identification fournie n’est pas autorisée à utiliser le service"],
+      ["402","Unprocessable entity","Code de retour générique lorsque la requête ne peut être traitée suite à des paramètres d’entrée non valides"],
+      ["404","Not Found","Code d’erreur en cas d’URI d’entrée inexistante ou d'information non trouvée"],
+      ["405","Method not Allowed","Code d’erreur en cas d’incompatibilité entre une URI et une méthode"],
+      ["406","Not Acceptable","Code de retour lorsque les entêtes ne semblent pas compatibles avec le fonctionnement du service"],
+      ["409","Conflict","La requête ne peut être traitée en l’état actuel. Ce code peut être utilisé afin d'indiquer une détection de doublon lors d'une création ou mise à jour par exemple"],
+      ["429","Too Many Requests","Code de retour lorsque le client émet trop de requêtes dans un délai donné"],
+      ["500","Server Error","Code d’erreur par défaut"],
+      ["503","Service Unavailable","Code de retour lorsque le service n’est pas disponible"]
+    ]
+}) }}
 
-
-| Code | Message | Description |
-| --- | --- | --- |
-| 102 | Processing | Traitement en cours (évite que le client dépasse le temps d’attente limite). |
-| 200 | OK  | Code de retour par défaut en cas de succès |
-| 201 | Created | Code retour en cas de succès du traitement et de la création d’une nouvelle ressource |
-| 202 | Accepted | Indique que la requête a bien été prise en compte et sera traitée ultérieurement. Ce mode de fonctionnement est principalement utilisé dans le cas d’échanges asynchrones et nécessite la mise en place d’un mécanisme de Call Back côté client |
-| 204 | No Content | Indique que la requête a bien été traitée mais qu’il n’y a pas de résultat à retourner. C’est par exemple le cas lors d’action de suppression |
-| 206 | Partial Content | Indique qu'une partie de la ressource a été transmise. Utilisé en cas de pagination |
-| 304 | Not Modified | Document non modifié depuis la dernière requête. |
-| 400 | Bad Request | Code d’erreur générique en cas d’informations non valides fournies au service |
-| 401 | Unauthorized | Code utilisé par les services nécessitant une autorisation lorsque l’identification fournie n’est pas autorisée à utiliser le service |
-| 402 | Unprocessable entity | Code de retour générique lorsque la requête ne peut être traitée suite à des paramètres d’entrée non valides |
-| 404 | Not Found | Code d’erreur en cas d’URI d’entrée inexistante ou d'information non trouvée |
-| 405 | Method not Allowed | Code d’erreur en cas d’incompatibilité entre une URI et une méthode |
-| 406 | Not Acceptable | Code de retour lorsque les entêtes ne semblent pas compatibles avec le fonctionnement du service |
-| 409	| Conflict 	     | La requête ne peut être traitée en l’état actuel. Ce code peut être utilisé afin d'indiquer une détection de doublon lors d'une création ou mise à jour par exemple
-| 429 | Too Many Requests | Code de retour lorsque le client émet trop de requêtes dans un délai donné |
-| 500 | Server Error | Code d’erreur par défaut |
-| 503 | Service Unavailable | Code de retour lorsque le service n’est pas disponible |
 
 ### Règle 2.6
 
@@ -260,9 +264,13 @@ Les ressources visées étant des collections ou une instance parmi une collecti
 **Cette règle peut se traduire par** :
 
 - *retourne une collection de ressources (toutes les immatriculations)*
-  - **GET** `https://api-name/v1/immatriculations`
+  ```html
+    GET `https://api-name/v1/immatriculations`
+  ```
 - *retourne une ressource unique (les informations pour l’immatriculation fournie)*
-  - **GET** `https://api-name/v1/immatriculations/AB-123-XZ`
+  ```html
+     GET `https://api-name/v1/immatriculations/AB-123-XZ`
+  ```
 
 ### Règle 2.14
 
@@ -320,7 +328,7 @@ Pour cela, la règle est traduite comme suit en prenant comme exemple une liste 
 
 > ℹ️ Un exemple inspiré du [guide du design des API rédigé par Octo](https://blog.octo.com/designer-une-api-rest).
 
-```
+```html
   GET https://api-name/v1/associations?range=1-10 
 
   < HTTP/1.1 200 OK
@@ -334,7 +342,7 @@ La fonctionnalité de tri comme de *filtrage* ou de *recherche* impacte la fonct
   - sort : indique les attributs métiers à trier. Si plusieurs attributs sont concernés, ils doivent être séparés par une virgule `sort=theme,titre`
   - desc: indique le sens du tri descendant pour les attributs métiers souhaités. Par défaut le tri est ascendant.
 
-```
+```html
   GET https://api-name/v1/associations?range=1-70&sort=id_association&desc=id_association
 
   < HTTP/1.1 200 OK
@@ -345,7 +353,7 @@ La fonctionnalité de tri comme de *filtrage* ou de *recherche* impacte la fonct
 Le filtrage permet de limiter le nombre d'élément renvoyé pour une ressource donnée, en spécifiant des attributs et leurs valeurs attendus. 
 Il est possible de filtrer une collection sur plusieurs attributs simultanément, et de permettre plusieurs valeurs pour un même attribut filtré en utilisant comme séparateur la virgule.
 
-```
+```html
     GET  "https://api-name/communes?codeDepartement=13,15&format=json&geometry=centre&fields=nom,code,codeDepartement,departement"
 ```
 
@@ -359,15 +367,16 @@ Il s'agit de permettre une recherche approchante sur un ensemble d'attributs, de
 
 **Cette règle est traduite comme suit** :
 
-```
+```html
     GET `https://api-name/v1/associations/search?q=asso`
 ```
 
 Le nombre d'occurrence d'informations pouvant être important, il convient d'en limiter le nombre retourné avec une valeur par défaut (ex: `limit=5`) modifiable jusqu'à une valeur maximale que vous considérez adapter au contexte :
 
-```
+```html
     GET `https://api-name/v1/associations/search?q=asso&limit=5`
 ```
+
 ### Règle 2.15
 
 
@@ -383,7 +392,7 @@ Vous devez également inclure dans la documentation :
 - les règles contractuelle et des données - dans quelles circonstances les données sont-elles disponibles / non disponibles
 - les scénarios d'erreur - pré-conditions et résultats - y compris les codes d'erreur et les messages
 - les détails sur le service de test - comment l'utiliser et comment simuler les différents scénarios de réussite et d'erreur
-- tous les détails des paramètres de requête et de réponse, y compris la signification, le type de données et toute autre contrainte. Donnez des exemples de valeurs valides.    
+- tous les détails des paramètres de requête et de réponse, y compris la signification, le type de données et toute autre contrainte. Donnez des exemples de valeurs valides.
 - les règles relatives au traitement des informations, à la gestion des incidents et à la gestion des risques
 - la méthode d'authentification en place (et son impact sur l'interopérabilité des services, l'authentification unique(SSO) et la limitation du débit (throttling)  
 - toutes les règles d'autorisation, par exemple, l'utilisation d'OAuth 2.0 et spécifiquement les scopes requis pour cette API  
@@ -502,8 +511,8 @@ Utilisez l'autorisation au niveau de l'utilisateur si vous souhaitez contrôler 
 
 L'usage d'une API doit être identifié par un élément unique valide pour une période de temps fixée. Ce dernier doit permettre le suivi de l'usage et la vérification du respect des clauses du contrat. Il peut reposer sur une information spécifique ou être une combinaison d'éléments permettant cette unicité. L'usage des jetons et des autorisations répond à ce besoin et suit les bonnes pratiques suivantes :
 
-- choisissez une fréquence d'actualisation et une période d'expiration appropriées pour vos jetons d'accès utilisateur - le fait de ne pas actualiser régulièrement les jetons d'accès peut entraîner des vulnérabilités    
-- autorisez vos utilisateurs à révoquer leur autorité    
+- choisissez une fréquence d'actualisation et une période d'expiration appropriées pour vos jetons d'accès utilisateur - le fait de ne pas actualiser régulièrement les jetons d'accès peut entraîner des vulnérabilités
+- autorisez vos utilisateurs à révoquer leur autorité
 - invalidez vous-même un jeton d'accès et forcez une réémission s'il y a une raison de soupçonner qu'un jeton a été compromis  
 - assurez-vous que les jetons que vous fournissez disposent des autorisations les plus étroites possibles (la réduction des autorisations signifie qu'il y a un risque beaucoup plus faible pour votre API si les jetons sont perdus par les utilisateurs ou compromis)
 

@@ -1,9 +1,10 @@
 ---
 title: Exemple de mentions légales
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 description: Mentions légales à compléter
 slugOverride: mentions legales
 showBreadcrumb: true
+date: Last Modified
 ---
 # Mentions légales
 

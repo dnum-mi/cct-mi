@@ -1,6 +1,7 @@
 ---
 title: Socle d'architecture
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
+date: Last Modified
 showBreadcrumb: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: CCT dans la passation des marchés publics
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
 date: Last Modified
 eleventyNavigation:

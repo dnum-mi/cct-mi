@@ -1,7 +1,8 @@
 ---
 title: Introduction à l'Environnement Numerique de Travail
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: environnement numérique de travail
   parent: Environnement Numérique de Travail

@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+<div class="fr-container fr-py-8v">
+  {% if showBreadcrumb %}
+    {% include "components/breadcrumb.njk" %}
+  {% endif %}
+  {% if date %}
+  <p>
+    <span class="meta__stats">Publié le {{page.date.toLocaleString("fr",{ weekday: 'long', year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric',minute: 'numeric', second: 'numeric' })}}</span>  
+  </p>
+  {% endif %}
+  <p>
+    <span class="meta__stats">&#9201; de lecture {{ content | readingTime }}</span>
+  </p>
+  <div class="fr-grid-row" data-pagefind-body>
+    <div class="fr-col-12">
+      {{ content | safe }}
+    </div>
+  </div>
+</div>

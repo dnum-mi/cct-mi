@@ -1,7 +1,8 @@
 ---
 title: Exigences d'architecture
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Exigences d'architecture
   parent: Socle architecture

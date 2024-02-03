@@ -1,7 +1,8 @@
 ---
 title: Analyser et valoriser les données
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 # Analyser et valoriser les données

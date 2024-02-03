@@ -1,7 +1,8 @@
 ---
 title: Doctrine API - Principes
-layout: layouts/page.njk
+layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 Chaque principe exposé ici est décliné en un ensemble de règles [consultables](../regles/). Ces principes visent à mettre en place un cadre partagé permettant d’inscrire l’ensemble des projets dans une dynamique API first.
