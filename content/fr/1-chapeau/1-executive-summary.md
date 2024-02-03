@@ -2,13 +2,12 @@
 title: Executive summary
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Executive summary
   parent: À propos
   order: 1
 ---
-
-
 
 # Executive summary
 

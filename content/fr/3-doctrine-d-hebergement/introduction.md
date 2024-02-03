@@ -2,6 +2,7 @@
 title: Doctrine d'hébergement
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Doctrine d'hébergement 
   parent: Offres d'hébergement
