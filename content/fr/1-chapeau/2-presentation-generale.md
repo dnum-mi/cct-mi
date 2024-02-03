@@ -2,6 +2,7 @@
 title: Présentation générale
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Présentation générale
   parent: À propos

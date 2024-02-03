@@ -2,13 +2,12 @@
 title: Glossaire
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Glossaire
   parent: À propos
   order: 5
 ---
-
-
 
 # Glossaire des termes du CCT
 
@@ -78,8 +77,6 @@ eleventyNavigation:
 
     ]
 }) }}
-
-
 
 
 {%include "components/back_to_top.njk" %}

@@ -2,12 +2,12 @@
 title: CCT dans la passation des marchés publics
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: CCT dans la passation des marchés publics
   parent: À propos
   order: 3
 ---
-
 
 # Guide d’utilisation du CCT dans la passation des marchés publics
 

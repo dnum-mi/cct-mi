@@ -2,6 +2,7 @@
 title: Contribuer au CCT
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 eleventyNavigation:
   key: Contribuer au CCT
   parent: À propos
@@ -18,11 +19,11 @@ Il existe deux niveaux de contribution développés dans ce document :
 - les parties prenantes [commentateur], qui n'accèdent pas directement aux documents, mais qui peuvent commenter via des fils de discussion appelés "issues". Ceux-ci doivent explicitement decrire les éléments à modifier ou rajouter pour que le gestionnaire de contenu puisse les prendre en compte.
 
 ## Accès à la forge et enrôlement sur le dépôt Git
-La forge DTNUM (<https://gitlab.forge-dc.cloudmi.minint.fr>) est accessible via les SSO du ministère. 
+La [forge DTNUM](https://gitlab.forge-dc.cloudmi.minint.fr) est accessible via les SSO du ministère. 
 Lors de votre première connextion, votre accès au Depôt du CCT est positionné par défaut sur le rôle de **Commentateur**[Guest]. 
 
 Les responsables de contenus sont des personnes mandatées en Comité CCT et doivent être enrôlés comme **éditeur**[Reporter].
-Pour vous enrôler en tant qu'éditeur, en cas de changement d'organisation par exemple, vous devez en faire la demande auprès des gestionnaires du CCT (<cct@interieur.gouv.fr>).
+Pour vous enrôler en tant qu'éditeur, en cas de changement d'organisation par exemple, vous devez en faire la demande auprès des gestionnaires du CCT [cct@interieur.gouv.fr](mailto:cct@interieur.gouv.fr).
 
 
 ## Contribution du commentateur
@@ -107,9 +108,6 @@ Ce contenu étant mis à disposition "en l'état", un contrôle de cohérence se
 Suite à leur validation, les contenus déjà disponibles sur le site Web Intranet seront estampilés "officiels" et dupliqués sur le site Web Internet.
 
 Ce contenu est aussi rendu disponible au format PDF. 
-
-
-
 
 
 {%include "components/back_to_top.njk" %}

@@ -2,6 +2,7 @@ const {DateTime} = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
+const readingTime = require('eleventy-plugin-reading-time');
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -61,6 +62,7 @@ module.exports = function (eleventyConfig) {
       return highlighter(str, language);
     });
 
+    eleventyConfig.addPlugin(readingTime);
    
     // Custom collections
     eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {

@@ -2,11 +2,11 @@
 title: Gestion du CCT
 layout: layouts/page.njk
 showBreadcrumb: true
+date: Last Modified
 ---
 
 
 # Manuel de gestion du CCT
-
 
 
 ## Génération et publication sur  l'Intranet du MIOM
