@@ -298,13 +298,21 @@ Par exemple, une déclaration fiscale est organisée autour d’une année de d�
 Cette règle s’applique également aux ressources nécessitant d’autres ressources pour construire l’URI. C’est le cas notamment lorsqu’il y a une imbrication fonctionnelle entre des objets métiers. Nous pouvons prendre le cas des bibliothèques et des livres à titre d’illustration :
 
 - la liste de toutes les bibliothèques :
-  - **GET** `https://api-name/v1/bibliotheques`
+  ```html
+     GET `https://api-name/v1/bibliotheques`
+  ```
 - la liste de tous les livres :
-  - **GET** `https://api-name/v1/livres`
+  ```html
+    GET `https://api-name/v1/livres`
+  ```
 - la liste de tous les livres de la BNF :
-  - **GET** `https://api-name/v1/bibliotheques/bnf/livres`
+  ```html
+    GET `https://api-name/v1/bibliotheques/bnf/livres`
+  ```
 - la liste des bibliothèques où on peut trouver le livre « Dom Juan » :
-  - **GET** `https://api-name/v1/livres/domjuan/bibliotheques`
+  ```html
+    GET `https://api-name/v1/livres/domjuan/bibliotheques`
+  ```
 
 #### nom de la ressource
 Enfin, le nom désignant la ressource manipulée au travers de l’API est le dernier élément de la chaîne constituant l’URI.
