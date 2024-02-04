@@ -33,9 +33,6 @@ La stratégie État Plateforme met en avant certains standards qui sont égaleme
 - [la spécification OpenAPI](https://github.com/OAI/OpenAPI-Specification) et [le framework swagger](http://swagger.io/) pour la documentation des API
 - [le format JSON](http://www.json.org/) pour la structuration des données
 
-## [Retour au sommaire](../sommaire/)
-<<<<<<< HEAD:content/fr/5-socle-d-architecture/2-donnees-et-api/3-strategie-api/introduction.md
+## [Retour au sommaire](../sommaire
 
 {% include "components/back_to_top.njk" %}
-=======
->>>>>>> main:content/fr/strategie-api/introduction.md
