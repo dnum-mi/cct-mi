@@ -17,12 +17,12 @@ module.exports = {
     peertube_url: "",
     github_url: "",
     sourcehut_url: "",
-    repository_url: "https://github.com/codegouvfr/eleventy-dsfr",
+    repository_url: "https://github.com/dnum-mi/cct-mi",
     language: "fr",
     description: "Direction de la Transformation NUmérique",
     author: {
         name: "Nom du service",
-        email: "contact@nom.du.service.gouv.fr",
+        email: "cct@nom.du.service.gouv.fr",
         url: "https://url_du_service.gouv.fr/"
     },
     service: "ministètre de l'intérieur"
