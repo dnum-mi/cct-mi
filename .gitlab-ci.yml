@@ -1,4 +1,4 @@
-S# The Docker image that will be used to build your app
+# The Docker image that will be used to build your app
 
 # gitlabrunner partagé
 default:
