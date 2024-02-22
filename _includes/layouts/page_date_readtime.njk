@@ -5,11 +5,6 @@ layout: layouts/base.njk
   {% if showBreadcrumb %}
     {% include "components/breadcrumb.njk" %}
   {% endif %}
-  {% if date %}
-  <p>
-    <span class="meta__stats">Publié le {{page.date.toLocaleString("fr",{ weekday: 'long', year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric',minute: 'numeric', second: 'numeric' })}}</span>  
-  </p>
-  {% endif %}
   <p>
     <span class="meta__stats">&#9201; de lecture {{ content | readingTime }}</span>
   </p>
