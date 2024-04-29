@@ -1,0 +1,45 @@
+include:
+  - project: $CATALOG_PATH
+    file: vault-ci.yml
+    ref: main
+  - project: $CATALOG_PATH
+    file: kaniko-ci.yml
+    ref: main
+
+default:
+  image: alpine:latest
+
+cache:
+  paths:
+    - node_modules
+
+variables:
+  REGISTRY_URL: "${REGISTRY_HOST}/${PROJECT_PATH}"
+
+stages:
+  - read-secret
+  - docker-build
+
+read_secret:
+  stage: read-secret
+  extends:
+    - .vault:read_secret
+
+docker-build:
+  variables:
+    TAG: "${CI_COMMIT_REF_SLUG}"
+    WORKING_DIR: ./
+    DOCKERFILE: ./Dockerfile.bitnami
+    IMAGE_NAMES: app-cct:1.0 app-cct:latest
+  stage: docker-build
+  extends:
+    - .kaniko:build-push
+  rules:
+    - if: $CI_COMMIT_BRANCH == "dev"
+      variables:                              
+        IMAGE_NAMES: app-cct:dev  
+    - if: $CI_COMMIT_BRANCH == "main"
+      variables:                              
+        IMAGE_NAMES: app-cct:1.0 app-cct:latest
+
+

@@ -48,17 +48,27 @@ Certains produits, quand ils ne figurent pas au référentiel, peuvent déroger 
 
 ### <a name="Regl">Règles et recommandations</a>
 
-|Ref|Statut|Intitulé|
-|---|------|--------|
-|-|RG|` `Un fournisseur désirant inclure dans sa solution un composant non référencé et donc non maîtrisé par le ministère dans le référentiel des produits du CCT, devra remplir les garanties pour que celui-ci puisse être considéré comme un logiciel « embarqué » dans l’application, et devra s’assurer que l’usage de ce composant n’impact pas la sécurité du SI. La gestion de ce composant est alors à la charge du demandeur sur tout le cycle de vie de celui-ci.|
+
+{% from "components/component.njk" import component with context %}
+{{ component("table", {
+    title: "",
+    headers: ["Ref","Statut","Intitulé"],
+    data: [
+      ["-","RG","Un fournisseur désirant inclure dans sa solution un composant non référencé et donc non maîtrisé par le ministère dans le référentiel des produits du CCT, devra remplir les garanties pour que celui-ci puisse être considéré comme un logiciel « embarqué » dans l’application, et devra s’assurer que l’usage de ce composant n’impact pas la sécurité du SI. La gestion de ce composant est alors à la charge du demandeur sur tout le cycle de vie de celui-ci."]
+    ]
+}) }}
+
 
 ## <a name="Doc">Ressources documentaires</a>
 
 De nombreux clausiers sont disponibles sur étagère. Quelques références suivent ci-dessous.
 
-- Le site <https://www.numerique.gouv.fr/> présente dans le cas du logiciel libre des [« conseils à la rédaction de clauses de propriété intellectuelle pour les marchés de développement et de maintenance de logiciels libres »](https://www.economie.gouv.fr/apie/actualites/conseils-redaction-clauses-propriete-intellectuelle)
+- Le site [numerique.gouv.fr](https://www.numerique.gouv.fr/) présente dans le cas du logiciel libre des [« conseils à la rédaction de clauses de propriété intellectuelle pour les marchés de développement et de maintenance de logiciels libres »](https://www.economie.gouv.fr/apie/actualites/conseils-redaction-clauses-propriete-intellectuelle)
+  
 - Le [site du SHFD - Service du Haut Fonctionnaire de Défense](http://ssi.minint.fr) présente ses propres [clauses concernant la sécurité du système d'information](http://ssi.minint.fr/index.php/clauses-de-securite-dans-les-marches) ainsi qu'un [guide de l'externalisation](http://ssi.minint.fr/files/referentiel_SSI/SSI_global/Guide_externalisation_V_1_0-1.pdf)
-- Clausier propriété intellectuelle avec l’APIE et la DAE (Direction des Achats de l'État), daté de mars 2019 : [Guide de l'achat public - Achats informatiques et propriété intellectuelle](https://www.economie.gouv.fr/files/files/directions_services/dae/doc/Guide_PII_web.pdf).
+  
+- Clausier propriété intellectuelle avec l’APIE et la DAE (Direction des Achats de l'État), daté de mars 2019 : [Guide de l'achat public - Achats informatiques et propriété intellectuelle](https://www.economie.gouv.fr/files/files/directions_services/dae/doc/Guide_PII_web.pdf);
+  
 - Pour information : [Publications de l'Agence du Patrimoine Immatériel de l'État (APIE)](https://www.economie.gouv.fr/apie/publications)
 
 **Remarque :** le contenu des offres de service est mis à disposition du soumissionnaire en tant que de besoin.
