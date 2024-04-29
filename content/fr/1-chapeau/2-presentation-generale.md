@@ -137,21 +137,23 @@ Le CCT a une double portée, ministérielle et interministérielle :
 appartenant au ministère
 - Interministérielle dans le cas des applications n’appartenant pas au ministère
 mais hébergées en son sein. Ce cas s’adresse principalement aux applications
-Cloud Natives
+Cloud Natives.
+
 Dans ce cadre, les acteurs ciblés par le CCT peuvent être issus du MIOM, d’un autre
 ministère et organisme de l’état ou d’un partenaire externe.
 Les principaux rôles répertoriés sont les suivants :
-- Les propriétaires des applications : référents de l’application qui gèrent son
-homologation, maintiennent son registre RGPD…
-- Les exploitants / hébergeurs : pour leurs exigences d'exploitabilité
-- Les concepteurs / développeurs - qu'ils œuvrent dans les DSI ou dans les directions
-métier, au sein du ministère ou avec des prestataires externes. Le CCT les aident
-à intégrer leur produit dans l'écosystème ministériel et interministériel
-(description des interfaces).
-- Les architectes et intégrateurs. Le CCT les aide à s'orienter vers des architectures
-à la fois maitrisées par le ministère et les plus appropriées au devenir du SI de l'État
-- Les services accompagnant les passations de marché (au travers des clausiers et
-de la notation des offres proposés dans le guide mentionné plus haut)
+
+  - Les propriétaires des applications : référents de l’application qui gèrent son
+  homologation, maintiennent son registre RGPD…
+  - Les exploitants / hébergeurs : pour leurs exigences d'exploitabilité
+  - Les concepteurs / développeurs - qu'ils œuvrent dans les DSI ou dans les directions
+  métier, au sein du ministère ou avec des prestataires externes. Le CCT les aident
+  à intégrer leur produit dans l'écosystème ministériel et interministériel
+  (description des interfaces).
+  - Les architectes et intégrateurs. Le CCT les aide à s'orienter vers des architectures
+  à la fois maitrisées par le ministère et les plus appropriées au devenir du SI de l'État
+  - Les services accompagnant les passations de marché (au travers des clausiers et
+  de la notation des offres proposés dans le guide mentionné plus haut)
 
 ## Utilisation du CCT au sein des projets et des processus
 
@@ -179,10 +181,10 @@ Le CCT du MIOM concerne en particulier les modèles de déploiements suivants :
 
 Deux approches sont actuellement possibles pour la mise à disposition des applications :
 l’approche « cloud native » et l’approche « legacy » :
-1. La première, le Cloud Native, est à privilégier systématiquement lors de la
+- La première, le Cloud Native, est à privilégier systématiquement lors de la
 conception de nouvelles applications et lors de la transformation
 d‘applications existantes.
-2. La seconde, le legacy, héberge les applications déployées antérieurement et
+- La seconde, le legacy, héberge les applications déployées antérieurement et
 non compatibles avec les nouvelles normes. Elle ne pourra être utilisée pour
 des nouveaux usages que de manière exceptionnelle et dérogatoire.
 

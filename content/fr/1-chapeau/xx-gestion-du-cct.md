@@ -29,10 +29,10 @@ Le responsable de contenus en prend connaissance et réalise les modifications n
 
 
 ## Génération et publication sur Internet
+
 Après corrections apportées par le responsable des contenus, et validation par l'équipe d'Architecture d'Entreprise, un tag avec l'intitulé "officiel" est alors produit. 
 
 Les contenus du site web sont alors déployés sur l'Intranet et sur l'Internet.
-
 
 
 {%include "components/back_to_top.njk" %}
