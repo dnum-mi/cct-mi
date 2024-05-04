@@ -2,7 +2,7 @@
 title: Cloud Pi Native - Offre CI/CD
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 

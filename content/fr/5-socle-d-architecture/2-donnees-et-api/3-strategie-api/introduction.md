@@ -19,20 +19,21 @@ Pour remplir cette promesse, les API mises en place dans le cadre de l’État P
 
 C’est pour ces raisons qu’il est essentiel, en complément du respect des standards, de définir une stratégie claire des API répondant aux enjeux métiers. Pour cela, on s’attachera, lors de la conception d’une API, aux aspect fonctionnels et métiers des services fournis :
 
-- format de la donnée facilitant son utilisation quelques soient les contextes
-- sollicitation au fil de l’eau (intégration dans les processus des partenaires)
-- adaptation des traitements en fonction des contextes des partenaires (plage d’ouverture, pics saisonniers …)
+- format de la donnée facilitant son utilisation quelques soient les contextes;
+- sollicitation au fil de l’eau (intégration dans les processus des partenaires);
+- adaptation des traitements en fonction des contextes des partenaires (plage d’ouverture, pics saisonniers …);
 - contrôle des données transmises adaptées aux cadres légaux et aux besoins des partenaires
-- …
+
 
 ## <a name="choix">Choix technologiques</a>
 
-La stratégie État Plateforme met en avant certains standards qui sont également utilisés dans les différentes API construites par des acteurs publics et disponibles sur [http://api.gouv.fr](http://api.gouv.fr/) :
+La stratégie État Plateforme met en avant certains standards qui sont également utilisés dans les différentes API construites par des acteurs publics et disponibles sur [api.gouv.fr](https://api.gouv.fr/) :
 
-- l’architecture REST et [API RESTful](https://restfulapi.net/) pour l’appel et l’utilisation des API
-- [la spécification OpenAPI](https://github.com/OAI/OpenAPI-Specification) et [le framework swagger](http://swagger.io/) pour la documentation des API
+- l’architecture REST et [API RESTful](https://restfulapi.net/) pour l’appel et l’utilisation des API;
+- [la spécification OpenAPI](https://github.com/OAI/OpenAPI-Specification) et [le framework swagger](http://swagger.io/) pour la documentation des API;
 - [le format JSON](http://www.json.org/) pour la structuration des données
 
-## [Retour au sommaire](../sommaire
+
+[Retour au sommaire](../sommaire)
 
 {% include "components/back_to_top.njk" %}

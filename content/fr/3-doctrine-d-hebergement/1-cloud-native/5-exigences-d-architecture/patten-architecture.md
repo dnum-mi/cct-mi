@@ -2,7 +2,7 @@
 title: Patterns d'architecture
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 La partie qui suit décrit des patterns d'architecture en cohérence avec l'approche Cloud Native : 

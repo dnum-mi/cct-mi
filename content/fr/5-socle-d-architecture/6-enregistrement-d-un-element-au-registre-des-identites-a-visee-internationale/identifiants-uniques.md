@@ -2,7 +2,7 @@
 title: Enregistrer un identifiant unique au registre international
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: Enregistrer un identifiant unique au registre international
   parent: Socle architecture

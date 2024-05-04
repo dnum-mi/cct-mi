@@ -2,7 +2,7 @@
 title: Services applicatifs
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: Services applicatifs
   parent: Socle architecture

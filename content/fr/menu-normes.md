@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: À propos
-  order: 7
+  key: Normes
+  order: 6
 permalink: false
 ---

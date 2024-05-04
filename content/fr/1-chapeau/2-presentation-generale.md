@@ -2,19 +2,13 @@
 title: Présentation générale
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: Présentation générale
   parent: À propos
   order: 2
   
 ---
-
-  {% if date %}
-  <p>
-    <span class="meta__stats">Mis à jour le {{page.date.toLocaleString("fr",{ weekday: 'long', year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric',minute: 'numeric', second: 'numeric' })}}</span>  
-  </p>
-  {% endif %}
 
 À travers sa doctrine « Cloud au centre », l’État encourage l’ensemble des acteurs publics
 à se saisir de son potentiel afin de développer une nouvelle génération de services

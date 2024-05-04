@@ -2,7 +2,7 @@
 title: Cloud PI Native
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: Accès rapide - cloud pi native
   parent: Offres d'hébergement

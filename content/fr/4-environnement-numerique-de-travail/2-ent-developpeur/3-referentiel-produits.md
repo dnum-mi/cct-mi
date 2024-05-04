@@ -2,7 +2,7 @@
 title: referentiel des produits de l'ENT du developpeur
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 <hr>

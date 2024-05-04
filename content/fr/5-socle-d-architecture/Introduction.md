@@ -1,7 +1,7 @@
 ---
 title: Socle d'architecture
 layout: layouts/page_date_readtime.njk
-date: Last Modified
+date: git Last Modified
 showBreadcrumb: true
 ---
 

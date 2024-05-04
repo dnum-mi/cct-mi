@@ -2,7 +2,7 @@
 title: Doctrine API
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 ## Doctrine API
@@ -11,13 +11,45 @@ date: Last Modified
 - [**Les API**](../introduction/index.html#API)
 - [**Choix technologique**](../introduction/index.html#choix)
 
-## Principes & règles
 
-- [Principe n°1 ](../principes/index.html#pr1) et [règles](../regles/index.html#pr1): **une API doit exposer des services métiers** et non des composants
-- [Principe n°2](../principes/index.html#pr2) et [règles](../regles/index.html#pr2): veiller au **découplage des API**
-- [Principe n°3](../principes/index.html#pr3") et [règles](../regles/index.html#pr3"): les versions d’une API suivent la politique de **gestion de versions** de la DTNUM
-- [Principe n°4](../principes/index.html#pr4) et [règles](../regles/index.html#pr4): **sélectionner les API à exposer**
-- [Principe n°5](../principes/index.html#pr5) et [règles](../regles/index.html#pr5): **mettre** en place des **éléments de mesure**, de **supervision** et de contrôle
-- [Principe n°6](../principes/index.html#pr6) : une API expose de la **donnée** et des **traitements**
+<div class="fr-grid-row fr-grid-row--gutters fr-mb-1w">
+    <div class="fr-col-md-6 fr-col">
+                {% from "components/component.njk" import component with context %}
+                <div>
+                    {{ component("card", {
+                        url: "/5-socle-d-architecture/2-donnees-et-api/3-strategie-api/principes",
+                        title: "Les principes",
+                        description: "Une API doit exposer des services métiers",
+                        tags: ["api"],
+                        date: "2023-06-21" | jsDateObject,
+                        badges: [],
+                        image: {
+                            path: "../../../../../public/img/undraw_Services_re_hu5n.png",
+                            alt: "principes"
+                        },
+                        orientation: horizontal
+                    }) }}
+                </div>
+    </div>
+    <div class="fr-col-md-6 fr-col">
+                {% from "components/component.njk" import component with context %}
+                <div>
+                    {{ component("card", {
+                        url: "/5-socle-d-architecture/2-donnees-et-api/3-strategie-api/regles",
+                        title: "Les règles",
+                        description: "Les règles et précisions associées aux principes",
+                        tags: ["api"],
+                        date: "2023-06-21" | jsDateObject,
+                        badges: [],
+                        image: {
+                            path: "../../../../../public/img/undraw_Terms_re_6ak4.png",
+                            alt: "regles"
+                        },
+                        oriental: horizontal
+                    }) }}
+                </div>
+    </div>
+</div>
+
 
 {% include "components/back_to_top.njk" %}
