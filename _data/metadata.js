@@ -1,5 +1,5 @@
 module.exports = {
-    title: "Cadre de cohérence Technique / Ministère de l'intérieur",
+    title: "Cadre de cohérence Technique (version Bêta)",
     url: "https://cct-mi.interieur.gouv.fr/",
     newsletter: [
         {
@@ -19,11 +19,11 @@ module.exports = {
     sourcehut_url: "",
     repository_url: "https://github.com/dnum-mi/cct-mi",
     language: "fr",
-    description: "Direction de la Transformation NUmérique",
+    description: "Ministère de l'Intérieur / Direction de la Transformation NUMérique",
     author: {
         name: "Nom du service",
         email: "cct@nom.du.service.gouv.fr",
         url: "https://url_du_service.gouv.fr/"
     },
-    service: "ministètre de l'intérieur"
+    service: "ministère de l'intérieur"
 }

@@ -2,7 +2,7 @@
 title: CCT dans la passation des marchés publics
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: CCT dans la passation des marchés publics
   parent: À propos

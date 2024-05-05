@@ -2,7 +2,7 @@
 title: Doctrine API - Rêgles
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 Les règles définies dans cette partie se veulent une déclinaison opérationnelle des principes définis précédemment. Ces différentes règles ont été mises à jour en reprenant pour partie le guide API publié par le [Government Digital Service (GDS)](https://www.gov.uk/guidance/gds-api-technical-and-data-standards) anglais, ainsi que certains éléments référencés dans le [guide de design d'API d'Octo](https://blog.octo.com/designer-une-api-rest/).

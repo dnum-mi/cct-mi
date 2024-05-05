@@ -2,7 +2,7 @@
 title: Environnement Numérique de Travail de l'administrateur
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: Environnement numérique de travail de l'administrateur
   parent: Environnement Numérique de Travail

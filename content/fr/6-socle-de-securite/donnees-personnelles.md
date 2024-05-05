@@ -2,15 +2,18 @@
 title: Gestion des données personnelles  
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
+
 # Gestion des données personnelles  
   
   
 ## Contexte  
  
 Les dispositions de l’article 4 du RGPD précisent : «données à caractère personnel», toute information se rapportant à une  personne physique identifiée ou identifiable (ci-après dénommée  «personne concernée») ; est réputée être une «personne physique  identifiable» une personne physique qui peut être identifiée,  directement ou indirectement, notamment par référence à un identifiant,  tel qu'un nom, un numéro d'identification, des données de localisation,  un identifiant en ligne, ou à un ou plusieurs éléments spécifiques  propres à son identité physique, physiologique, génétique, psychique,  économique, culturelle ou sociale. Au vu de cette définition, la majorité des applications du ministère de l’intérieur traitent des données personnelles.
+
 La protection des données personnelles relève de plusieurs cadres juridiques :
+
 - Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données);
 - Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés;
 - Directive (UE) 2016/680 du Parlement européen et du Conseil du 27 avril  2016 relative à la protection des personnes physiques à l'égard du  traitement des données à caractère personnel par les autorités  compétentes à des fins de prévention et de détection des infractions  pénales, d'enquêtes et de poursuites en la matière ou d'exécution de  sanctions pénales, et à la libre circulation de ces données, et  abrogeant la décision-cadre 2008/977/JAI du Conseil; 
@@ -22,7 +25,7 @@ La protection des données personnelles relève de plusieurs cadres juridiques :
 Le règlement européen renforce de façon significative les droits de l'usager sur ses données personnelles, notamment :
 - Droit d'accès aux données, de rectification
 - Selon les circonstances : droit à l'effacement, opposition
-- Pour certains traitements (et très rare au MI) : portabilité des données
+- Pour certains traitements (et très rare au ministère) : portabilité des données
 
 
 [Politique de conformité des données personnelles du ministère de l'intérieur (PCDP-MI)](http://sg.minint.fr/images/RGPD/PCDP_MI_V1_03062019.pdf)
@@ -48,6 +51,7 @@ Ainsi, le chapitre II de la loi fixe les conditions de licéité des traitements
 La protection des données à caractère personnel, que celle-ci relève du RGPD ou de la loi n° 78-17 du 6 janvier 1978 (périmètre sécurité publique et infractions pénales) a un **impact important pour l'application** dans l'ensemble de son cycle de vie (conception, exploitation, décommissionnement). Ainsi que le spécifie le RGPD dans l'article 25, la protection des données doit être prise en compte **dès la conception, et par défaut** (*privacy by design*, *privacy by default*).
 
 Le guide méthodologique de la CNIL « Analyse d'impact relative à la protection des données / La méthode», la démarche de mise en conformité s'appuie sur deux piliers : 
+
 - les **principes et droits fondamentaux**, sont réglementaires, et de facto obligatoires sans condition. On peut citer parmi les droits fondamentaux, l'information des personnes concernées, l'exercice des droits selon les situations (d'accès, de rectification, d'effacement, de limitation du traitement ....)
 - la **gestion des risques sur les droits et libertés des personnes**, qui permet de déterminer les mesures techniques appropriées.
 

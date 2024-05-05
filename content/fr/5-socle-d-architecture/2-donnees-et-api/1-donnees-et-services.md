@@ -2,7 +2,7 @@
 title: données et services
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 # Concevoir une application orientée données et services  

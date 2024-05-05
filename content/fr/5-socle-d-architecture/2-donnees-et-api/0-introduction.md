@@ -2,7 +2,7 @@
 title: Données et API
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: Données et API
   parent: Socle architecture

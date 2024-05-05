@@ -2,7 +2,7 @@
 title: Solutions de captcha
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 # Solutions de Captcha

@@ -4,6 +4,7 @@ layout: layouts/post.njk
 description: Déclaration d’accessibilité à compléter
 slugOverride: accessibilite
 showBreadcrumb: true
+date: git Last Modified
 ---
 # Accessibilité
 

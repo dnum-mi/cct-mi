@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+<div class="fr-container fr-py-8v">
+  {% if showBreadcrumb %}
+    {% include "components/breadcrumb.njk" %}
+  {% endif %}
+  <p>
+    <span class="meta__stats">&#9201; de lecture {{ content | readingTime }}</span>
+  </p>
+  <div class="fr-grid-row" data-pagefind-body>
+    <div class="fr-col-12">
+      {{ content | safe }}
+    </div>
+  </div>
+</div>

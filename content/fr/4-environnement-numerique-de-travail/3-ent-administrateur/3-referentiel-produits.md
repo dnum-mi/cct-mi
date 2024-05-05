@@ -2,8 +2,9 @@
 title: referentiel des produits de l'ENT de l'administrateur, l'exploitation et l'hebergement
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
+
 <hr>
 <h2>
 <a name="EX"> Partie 1 : Exploitation &amp; H&eacute;bergement - [ EX ]</a>

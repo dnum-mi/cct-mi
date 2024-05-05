@@ -2,7 +2,7 @@
 title: Emploi des données géographiques
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 
 # Emploi des données géographiques
