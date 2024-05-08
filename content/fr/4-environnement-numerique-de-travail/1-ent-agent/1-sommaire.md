@@ -4,7 +4,7 @@ layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
 date: git Last Modified
 eleventyNavigation:
-  key: environnement numérique de travail de l'agent
+  key: Présentation générale
   parent: Environnement Numérique de Travail
   order: 2
 ---
@@ -109,7 +109,7 @@ On considère que les produits matériels qui composent l’Environnement Numér
 
 ### Logiciels / Services de l'Environnement numérique de Travail
 
-#### Contexte réglementaire :
+#### Contexte réglementaire
 
 Le présent document s’appuie sur les textes référencés ci-après définissant la stratégie de l’État au niveau des systèmes d’information.
 Ainsi les critères de sélection des outils/services reprennent ces priorisations pour définir ceux dont l’usage sera autorisé au sein du ministère de l’Intérieur.

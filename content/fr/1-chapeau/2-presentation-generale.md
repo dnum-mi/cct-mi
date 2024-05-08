@@ -10,7 +10,7 @@ eleventyNavigation:
   
 ---
 
-À travers sa doctrine « Cloud au centre », l’État encourage l’ensemble des acteurs publics
+À travers sa doctrine **« Cloud au centre »**, l’État encourage l’ensemble des acteurs publics
 à se saisir de son potentiel afin de développer une nouvelle génération de services
 numériques de qualité, tout en protégeant au mieux les données des entreprises et des
 citoyens français.
@@ -72,6 +72,7 @@ Ce CCT chapeau doit permettre aux Concepteurs/Développeurs, architectes, chefs 
 
 Ce document représente le document « chapeau » du CCT qui vise à faire le lien vers d’autres documents, selon les offres du MIOM et interministériel, dont chacun d’eux est couplé d’un guide de bonnes pratiques et d’une liste d’annexes et d’exigences.
 Pour plus de flexibilité dans l’évolution et dans l’applicabilité du CCT, celui-ci est scindé en plusieurs documents dont l’architecture est détaillée dans le chapitre 1.3. Ce document « chapeau » vise à faire le lien vers d’autres documents listés ci-dessous dont chacun d’eux est couplé d’une liste d’annexes et d’exigences.
+
 - [Environnements numériques de travail](../../4-environnement-numerique-de-travail/introduction/)
 - [Offres d'hebergement](../../3-doctrine-d-hebergement/introduction/)
 - [Socle d’architecture](../../5-socle-d-architecture/Introduction/)
@@ -80,7 +81,8 @@ Pour plus de flexibilité dans l’évolution et dans l’applicabilité du CCT,
 ## Architecture documentaire et applicabilité selon les cas
 
 
-Pour des raisons de périmètre et de différences de gouvernance entre les domaines d’exigence, les exigences et recommandations du CCT ont été séparées dans 5 thèmes listés ci-dessous :
+Pour des raisons de périmètre et de différences de gouvernance entre les domaines d’exigence, les exigences et recommandations du CCT ont été séparées dans 5 thèmes listés ci-dessous
+
 - **Environnement numérique de travail** : ensemble de règles et exigences s’appliquant aux applications et SI bureautique du MIOM et à l’interministériel;
 - **Legacy** : ensemble de règles et exigences s’appliquant aux applications et SI du MIOM ne pouvant pas être conçus comme étant cloud native (contraintes techniques et / ou légales);
 - **Cloud Native** : ensemble des règles et exigences s’appliquant aux applications et SI cloud native à l’interministériel;
@@ -192,7 +194,7 @@ des nouveaux usages que de manière exceptionnelle et dérogatoire.
       ["Exigences et contrôle","Cadre et exigences sur l’ensemble des couches de l’application Contrôle complet de l’application et infrastructure, homologation de bout en bout","Cadre et exigences focalisés sur les interfaces de l’application et les données exposées Liberté laissée au développeur tant que les interfaces sont respectées"],
       ["Consommation service transverse","Services transverses à mettre en œuvre et intégrer 'manuellement'","Intégration native des services sur étagère et automatiquement"],
       ["Valorisation de la donnée","Intégration 'manuelle' aux services d’exposition de la donnée","Capacités 'sur étagère' et automatisée d’exposition des données"],
-      ["Observabilité","Logs non normés, peu ou pas centralisés","Centralisation systématique du monitoring et des logs de l’infrastructure et des applications permettant une vision 360 sur l’application Normalisation des logs (techniques, métiers, sécurité)"],
+          ["Observabilité","Logs non normés, peu ou pas centralisés","Centralisation systématique du monitoring et des logs de l’infrastructure et des applications permettant une vision 360 sur l’application Normalisation des logs (techniques, métiers, sécurité)"],
       ["Processus de run","Exploitation des applications dans un modèle 'pet', configurations manuelles et réparation des incidents au sein des serveurs","Exploitation dans un modèle 'cattle', détection automatisée des problèmes (health check) et reconstruction des containers plutôt que réparation"]
     ]
 }) }}
