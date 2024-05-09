@@ -8,9 +8,11 @@ date: git Last Modified
 <hr>
 <h2>
 <a name="PT"> Partie 5 : Poste de travail (Fixe &amp; mobile) - [ PT ]</a>
-</h2>
-<p class="comm_italic">Pour les logiciels pris en charge au march&eacute; de support logiciels libres, il est indiqu&eacute; "Oui" dans la colonne "Supp. LL"Les versions de composants indiqu&eacute;es sont celles en vigueur &agrave; la date de publication du CCT.<br/>Les alertes de s&eacute;curit&eacute; et les proc&eacute;dures de mise &agrave; jour (ou de contournement) sont disponibles sur le portail de la s&eacute;curit&eacute; des syst&egrave;mes d'information (http://ssi.minint.fr/index.php/les-alertes).<br/></p>
-<hr>
+
+Pour les logiciels pris en charge au march&eacute; de support logiciels libres, il est indiqu&eacute; "Oui" dans la colonne "Supp. LL"Les versions de composants indiqu&eacute;es sont celles en vigueur &agrave; la date de publication du CCT.
+
+Les alertes de s&eacute;curit&eacute; et les proc&eacute;dures de mise &agrave; jour (ou de contournement) sont disponibles sur [le portail de la s&eacute;curit&eacute; des syst&egrave;mes d'information](http://ssi.minint.fr/index.php/les-alertes).
+
 <h3>
 <a name="PTSE"> Chapitre 1 : Syst&egrave;me d'exploitation - [ SE ]</a>
 </h3>
