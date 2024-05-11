@@ -4,9 +4,9 @@ layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
 date: git Last Modified
 eleventyNavigation:
-  key: Accès rapide - cloud pi native
+  key: Cloud pi native
   parent: Offres d'hébergement
-  order: 2
+  order: 3
 ---
 
 ## Objectif
