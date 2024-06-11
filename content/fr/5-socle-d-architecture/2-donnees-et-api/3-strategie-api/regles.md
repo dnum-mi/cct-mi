@@ -5,7 +5,7 @@ showBreadcrumb: true
 date: git Last Modified
 ---
 
-Les règles définies dans cette partie se veulent une déclinaison opérationnelle des principes définis précédemment. Ces différentes règles ont été mises à jour en reprenant pour partie le guide API publié par le [Government Digital Service (GDS)](https://www.gov.uk/guidance/gds-api-technical-and-data-standards) anglais, ainsi que certains éléments référencés dans le [guide de design d'API d'Octo](https://blog.octo.com/designer-une-api-rest/).
+Les règles définies dans cette partie se veulent une déclinaison opérationnelle des principes définis précédemment. Ces différentes règles ont été mises à jour en reprenant pour partie le guide API publié par le <a href="https://www.gov.uk/guidance/gds-api-technical-and-data-standards" target="_blank"> Government Digital Service (GDS) anglais</a>, ainsi que certains éléments référencés dans <a href="https://blog.octo.com/designer-une-api-rest/" target="_blank">le guide de design d'API d'Octo</a>.
 
 ## <a name="pr1"> Principe n°1 : une API doit exposer des services métiers et non des composants techniques </a>
 
@@ -51,17 +51,17 @@ En dehors de ces exceptions, nous recommandons de :
 
 #### Règle 2.2.1
 
-Le format [GeoJSON](http://geojson.org/) doit être prévilégié dans le cadre d'échange d'information de localisation géographique. 
-Ce format est référencé dans [Référentiel Général Interopérabilité (RGI V2)](http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf).  
+Le format <a href="http://geojson.org/" target="_blank">GeoJSON</a> doit être prévilégié dans le cadre d'échange d'information de localisation géographique. 
+Ce format est référencé dans <a href="http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf" target="_blank">Référentiel Général Interopérabilité (RGI V2)</a>.  
 
 #### Règle 2.2.2
 
-La norme [Unicode Transformation Format (UTF-8)](https://fr.wikipedia.org/wiki/UTF-8) est à adopter lors du codage de texte ou d'autres représentations textuelles de données.
+La norme <a href="(https://fr.wikipedia.org/wiki/UTF-8" target="_blank">Unicode Transformation Format (UTF-8) </a> est à adopter lors du codage de texte ou d'autres représentations textuelles de données.
 Cette norme d'encodage est référencée dans [Référentiel Général Interopérabilité (RGI V2)](http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf).  
 
 #### Règle 2.2.3
 
-La représentation du format d'une date ou d'une date et d'une heure doit respecter la norme [ISO 8601 standard](https://fr.wikipedia.org/wiki/ISO_8601) ainsi le traitement en sera internationalement facilité
+La représentation du format d'une date ou d'une date et d'une heure doit respecter la norme <a  href="https://fr.wikipedia.org/wiki/ISO_8601" target="_blank">ISO 8601 standard</a> ainsi le traitement en sera internationalement facilité
 
 Ainsi nous pourrions avoir pour une date `2017-08-09` et pour une date et heure `2017-08-09T13:58:07Z`.
 
@@ -220,15 +220,15 @@ N’encouragez pas les utilisateurs à mettre à jour de grands ensembles de don
 
 Il n’existe pas de norme recommandée pour ce modèle. Les utilisateurs peuvent donc essayer différentes approches telles que:
 
-- l’encodage des données dans les flux [Atom / RSS](https://en.wikipedia.org/wiki/Atom)
-- en utilisant des modèles émergents, tels que les flux d’événements utilisés par des produits tels que [Apache Kafka](https://kafka.apache.org/)
+- l’encodage des données dans les flux <a href="https://en.wikipedia.org/wiki/Atom" target="_blank">Atom / RSS</a>
+- en utilisant des modèles émergents, tels que les flux d’événements utilisés par des produits tels que <a href="https://kafka.apache.org/" target="_blank">Apache Kafka</a>
 - utiliser des registres de données ouverts
 
 ### Règle 2.9
 
 Lorsque vous publiez des données en masse, rendez ces données disponibles aux formats CSV et JSON. Cela garantit que les utilisateurs peuvent utiliser un large éventail d’outils, y compris des logiciels standard, pour importer et analyser ces données.
 
-Publiez des données en masse sur [data.gouv.fr](https://data.gouv.fr/) et assurez-vous qu’il existe un lien bien en vue vers votre API.
+Publiez des données en masse sur <a href="https://data.gouv.fr/" target="_blank">data.gouv.fr</a> et assurez-vous qu’il existe un lien bien en vue vers votre API.
 
 ### Règles 2.10
 
@@ -334,7 +334,7 @@ Pour ce faire, il est utile de préciser :
 
 Pour cela, la règle est traduite comme suit en prenant comme exemple une liste d'associations avec une pagination du premier au dixième élément. 
 
-> ℹ️ Un exemple inspiré du [guide du design des API rédigé par Octo](https://blog.octo.com/designer-une-api-rest).
+> ℹ️ Un exemple inspiré du <a href="https://blog.octo.com/designer-une-api-rest" target="_blank">guide du design des API rédigé par Octo</a>.
 
 ```html
   GET https://api-name/v1/associations?range=1-10 
@@ -376,13 +376,13 @@ Il s'agit de permettre une recherche approchante sur un ensemble d'attributs, de
 **Cette règle est traduite comme suit** :
 
 ```html
-    GET `https://api-name/v1/associations/search?q=asso`
+    GET "https://api-name/v1/associations/search?q=asso"
 ```
 
 Le nombre d'occurrence d'informations pouvant être important, il convient d'en limiter le nombre retourné avec une valeur par défaut (ex: `limit=5`) modifiable jusqu'à une valeur maximale que vous considérez adapter au contexte :
 
 ```html
-    GET `https://api-name/v1/associations/search?q=asso&limit=5`
+    GET "https://api-name/v1/associations/search?q=asso&limit=5"
 ```
 
 ### Règle 2.15
@@ -390,8 +390,8 @@ Le nombre d'occurrence d'informations pouvant être important, il convient d'en 
 
 Vous devez fournir une documentation permettant de faciliter l'appropriation et l'usage de votre API et permettre à vos consommateurs de démarrer rapidement. Pour cela, vous devez :
 
-- utiliser la [Spécification OpenAPI 3](https://www.openapis.org/) le cas échéant pour générer la documentation (recommandé par l'Open Standards Board)
-- générer une documentation suivant le formalisme [Swagger](https://swagger.io/)
+- utiliser la <a href="https://www.openapis.org/" target="_blank">Spécification OpenAPI 3</a> le cas échéant pour générer la documentation (recommandé par l'Open Standards Board)
+- générer une documentation suivant le formalisme <a href="https://swagger.io/" target="_blank">Swagger</a>
 - fournir un exemple de code pour illustrer comment appeler l'API et pour indiquer aux utilisateurs les réponses auxquelles ils peuvent s'attendre
 
 Vous devez également inclure dans la documentation :
@@ -427,8 +427,8 @@ Une feuille de route est associée à chaque API. Celle-ci doit comporter a mini
 - les évolutions prévues dans chaque version en précisant les impacts éventuels sur la version précédente
 - le point de contact pour toute question relative à cette feuille de route
 
-Cette information doit faire l'objet d'une diffusion auprès des utilisateurs. Des canaux classiques comme la publication sur la page de présentation de l'API ou de mailing sont à prévoir. Il est également possible d'indiquer les éléments qui ne seront plus supportés en utilisant l'entête `Deprecation` et `Sunset`([RFC
-8594](https://datatracker.ietf.org/doc/html/rfc8594)) des réponses HTTP.
+Cette information doit faire l'objet d'une diffusion auprès des utilisateurs. Des canaux classiques comme la publication sur la page de présentation de l'API ou de mailing sont à prévoir. Il est également possible d'indiquer les éléments qui ne seront plus supportés en utilisant l'entête `Deprecation` et `Sunset` <a href="https://datatracker.ietf.org/doc/html/rfc8594" target="_blank">RFC
+8594</a> des réponses HTTP.
 
 ### Règle 3.3
 
@@ -480,7 +480,7 @@ Si votre API sert des données personnelles ou sensibles, vous devez journaliser
 
 ### Règle 5.2
 
-Privilégiez un accès sans contrôle si vous souhaitez donner un accès sans entrave à votre API et que vous n'avez pas besoin d'identifier vos utilisateurs. C'est le cas par exemple lorsque vous fournissez des données ouvertes. Cependant,il faut garder à l'esprit le risque [d'attaques par déni de service](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service).
+Privilégiez un accès sans contrôle si vous souhaitez donner un accès sans entrave à votre API et que vous n'avez pas besoin d'identifier vos utilisateurs. C'est le cas par exemple lorsque vous fournissez des données ouvertes. Cependant,il faut garder à l'esprit le risque <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service" target="_blank">d'attaques par déni de service</a>.
 
 Attention, le libre accès ne signifie pas que vous ne pouvez pas limiter l'usage de votre API.
 
@@ -513,7 +513,7 @@ De manière générale, les ressources mises en oeuvre pour un usage anonyme doi
 
 Utilisez l'autorisation au niveau de l'utilisateur si vous souhaitez contrôler les utilisateurs finaux qui peuvent accéder à votre API. Cela convient pour traiter des données personnelles ou sensibles.
 
-[OpenID Connect](http://openid.net/connect/) (OIDC), qui s'appuie sur OAuth2, avec son utilisation de [JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519), est utilisé par France Connect et peut convenir dans certains cas. Il faudra néanmoins prévoir un dispositif OIDC interne pour permettre à des utilisateurs inconnus des Fournisseurs d'Identité d'utiliser l'API.
+<a href="http://openid.net/connect/" target="_blank">OpenID Connect (OIDC)</a>, qui s'appuie sur OAuth2, avec son utilisation de <a href="https://tools.ietf.org/html/rfc7519" target="_blank">JSON Web Token (JWT)</a>, est utilisé par France Connect et peut convenir dans certains cas. Il faudra néanmoins prévoir un dispositif OIDC interne pour permettre à des utilisateurs inconnus des Fournisseurs d'Identité d'utiliser l'API.
 
 ### Règle 5.6
 
