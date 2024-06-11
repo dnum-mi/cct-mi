@@ -4,7 +4,7 @@ layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
 date: git Last Modified
 eleventyNavigation:
-  key: Environnement numérique de travail de l'administrateur
+  key: Pour l'administrateur
   parent: Environnement Numérique de Travail
   order: 4
 ---

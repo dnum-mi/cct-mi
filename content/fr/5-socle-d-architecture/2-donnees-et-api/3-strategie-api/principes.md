@@ -33,15 +33,15 @@ De même, l’API doit respecter un certain nombre de règles dans sa définitio
 - fournir des données structurées et adaptées au métier faisant abstraction des ressources techniques sous-jacentes
 - maîtriser les différentes versions disponibles en garantissant, par exemple, une compatibilité ascendante (cf. [**principe 3**](./index.html#pr3))
 
-Afin de s’assurer du respect de ce premier principe, l’approche " [Eat your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) " est un bon moyen pour :
+Afin de s’assurer du respect de ce premier principe, l’approche <a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food" target="_blank">**Eat your own dog food**</a> est un bon moyen pour :
 
 - détecter les bugs;
 - les corriger rapidement;
 - améliorer l’utilisabilité de l’API;
 - réaliser les premiers tests de charge;
-- vérifier la bonne application des règles de sécurité. [OWASP](https://owasp.org/www-project-api-security/) décrit ici le top 10 des règles de sécurité d'une API.
+- vérifier la bonne application des règles de sécurité. <a href="https://owasp.org/www-project-api-security/" target="_blank">OWASP</a> décrit ici le top 10 des règles de sécurité d'une API.
 
-Enfin, mettre en place une stratégie « API first ». L’objectif est d’analyse le positionnement du projet dans l’écosystème d’API (du MI, de l’État Plateforme et/ou de partenaires). Cette phase doit permettre d’identifier, dès le lancement, les API disponibles utiles au projet et celles qui pourraient venir compléter l’écosystème.
+Enfin, mettre en place une stratégie **API First**. L’objectif est d’analyse le positionnement du projet dans l’écosystème d’API (du MI, de l’État Plateforme et/ou de partenaires). Cette phase doit permettre d’identifier, dès le lancement, les API disponibles utiles au projet et celles qui pourraient venir compléter l’écosystème.
 
 ## <a name="pr2"> Principe n°2 : veiller au découplage des API </a>
 
@@ -81,8 +81,8 @@ L’exposition d’API implique d’être en capacité de mesurer, contrôler et
 - détection d’usage frauduleux;
 - prendre des mesures de régulation en cas de non respect des engagements;
 - limitation ou coupure de l’accès à l’API;
-- mesurer les performances du service [*Service Level Objectives*](https://fr.wikipedia.org/wiki/SLO);
-- mesurer le niveau du service [*Service Level Agreement*](https://fr.wikipedia.org/wiki/Service-level_agreement); 
+- mesurer les performances du service <a href="https://fr.wikipedia.org/wiki/SLO)" target="_blank">*Service Level Objectives*</a>;
+- mesurer le niveau du service <a href="https://fr.wikipedia.org/wiki/Service-level_agreement" target="_blank">*Service Level Agreement*</a>; 
 - détecter les défaillances;
 - identifier un besoin d’évolution et en mesurer l’efficacité
 
@@ -92,8 +92,8 @@ Bien que dans un premier temps, les API soient principalement utilisées pour l�
 
 Ces mécanismes doivent permettre à l’émetteur de l’appel à l’API de recevoir le résultat dans un échange différent de son appel. Ils mettent en œuvre les principes de :
 
-- callback : l’utilisateur indique à l’API la localisation du système par lequel le résultat doit lui être transmis. Il s’agit généralement d’une API dédiée à la réception des retours.
-- corrélation : l’utilisateur et le fournisseur de l’API s’entendent sur un identifiant unique permettant de corréler le résultat transmis à un précédent appel.
+- **callback** : l’utilisateur indique à l’API la localisation du système par lequel le résultat doit lui être transmis. Il s’agit généralement d’une API dédiée à la réception des retours.
+- **corrélation** : l’utilisateur et le fournisseur de l’API s’entendent sur un identifiant unique permettant de corréler le résultat transmis à un précédent appel.
 
 En complément, des mécanismes de suivi de l’avancement de la réalisation des traitements et de reprise en cas d’incident doivent être mis en place pour informer les utilisateurs de l’API.
 

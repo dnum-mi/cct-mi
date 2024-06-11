@@ -27,13 +27,11 @@ C’est pour ces raisons qu’il est essentiel, en complément du respect des st
 
 ## <a name="choix">Choix technologiques</a>
 
-La stratégie État Plateforme met en avant certains standards qui sont également utilisés dans les différentes API construites par des acteurs publics et disponibles sur [api.gouv.fr](https://api.gouv.fr/) :
+La stratégie État Plateforme met en avant certains standards qui sont également utilisés dans les différentes API construites par des acteurs publics et disponibles sur <a href="https://api.gouv.fr/" target="_blank"> api.gouv.fr</a> :
 
-- l’architecture REST et [API RESTful](https://restfulapi.net/) pour l’appel et l’utilisation des API;
-- [la spécification OpenAPI](https://github.com/OAI/OpenAPI-Specification) et [le framework swagger](http://swagger.io/) pour la documentation des API;
-- [le format JSON](http://www.json.org/) pour la structuration des données
+- l’architecture REST et <a href="https://restfulapi.net/" target="_blank">API RESTful</a> pour l’appel et l’utilisation des API;
+- <a href="https://github.com/OAI/OpenAPI-Specification" target="_blank"> la spécification OpenAPI</a> et <a href="http://swagger.io/" target="_blank">le framework swagger</a> pour la documentation des API;
+- <a href="http://www.json.org/" target="_blank"> le format JSON</a> pour la structuration des données
 
-
-[Retour au sommaire](../sommaire)
 
 {% include "components/back_to_top.njk" %}

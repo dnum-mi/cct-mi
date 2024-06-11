@@ -4,7 +4,7 @@ layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
 date: Last Modified
 eleventyNavigation:
-  key: Accès rapide - cloud pi
+  key: Cloud pi iaas
   parent: Offres d'hébergement
   order: 2
 ---
