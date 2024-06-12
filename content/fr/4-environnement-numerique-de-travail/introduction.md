@@ -4,7 +4,7 @@ layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
 date: Last Modified
 eleventyNavigation:
-  key: introduction
+  key: Introduction
   parent: Environnement Numérique de Travail
   order: 1
 ---

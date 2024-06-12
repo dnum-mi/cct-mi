@@ -1,6 +1,6 @@
 module.exports = {
     title: "Cadre de cohérence Technique (version Bêta)",
-    url: "https://cct-mi.interieur.gouv.fr/",
+    url: "https://cct-mi.interieur.rie.gouv.fr/",
     newsletter: [
         {
             url: "",
