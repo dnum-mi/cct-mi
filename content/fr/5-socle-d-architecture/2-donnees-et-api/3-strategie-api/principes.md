@@ -81,7 +81,7 @@ L’exposition d’API implique d’être en capacité de mesurer, contrôler et
 - détection d’usage frauduleux;
 - prendre des mesures de régulation en cas de non respect des engagements;
 - limitation ou coupure de l’accès à l’API;
-- mesurer les performances du service <a href="https://fr.wikipedia.org/wiki/SLO)" target="_blank">*Service Level Objectives*</a>;
+- mesurer les performances du service <a href="https://fr.wikipedia.org/wiki/Service-level_objectives" target="_blank">*Service Level Objectives*</a>;
 - mesurer le niveau du service <a href="https://fr.wikipedia.org/wiki/Service-level_agreement" target="_blank">*Service Level Agreement*</a>; 
 - détecter les défaillances;
 - identifier un besoin d’évolution et en mesurer l’efficacité
