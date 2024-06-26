@@ -5,7 +5,7 @@ showBreadcrumb: true
 date: git Last Modified
 eleventyNavigation:
   key: Présentation générale
-  parent: À propos
+  parent: Présentation 
   order: 2
   
 ---

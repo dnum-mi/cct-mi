@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: Socle architecture
-  order: 4
+  key: Présentation
+  order: 2
 permalink: false
 ---
