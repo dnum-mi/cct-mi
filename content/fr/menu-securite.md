@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
   key: Socle sécurité
-  order: 4
+  order: 5
 permalink: false
 ---

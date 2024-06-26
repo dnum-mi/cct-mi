@@ -5,7 +5,7 @@ showBreadcrumb: true
 date: git Last Modified
 eleventyNavigation:
   key: CCT dans la passation des marchés publics
-  parent: À propos
+  parent: Présentation
   order: 3
 ---
 
