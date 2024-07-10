@@ -6,9 +6,12 @@ date: git Last Modified
 eleventyNavigation:
   key: Présentation générale
   parent: Présentation 
-  order: 2
+  order: 1
   
 ---
+À travers sa doctrine **Cloud au centre**, l’État encourage l’ensemble des acteurs publics à se saisir de son potentiel afin de développer une nouvelle génération de services numériques de qualité, tout en protégeant au mieux les données des entreprises et des citoyens français.
+
+Dans le but de disposer un SI adapté et agile, le MIOM a posé un ensemble de normes techniques et des recommandations de nature, formalisés dans un document de Cadre de Cohérence Technique (CCT), pour le développement de nouvelles applications compatibles avec ces normes et hébergées sur son infrastructure, et de services de qualité qui répondent aux besoins des métiers et déployables rapidement et à coûts réduits.
 
 Ce document représente le document « chapeau » du Cadre de Cohérence Technique
 (CCT) qui vise à faire le lien vers d’autres documents, selon les offres du MIOM et

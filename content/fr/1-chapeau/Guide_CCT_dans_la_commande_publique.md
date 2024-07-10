@@ -6,7 +6,7 @@ date: git Last Modified
 eleventyNavigation:
   key: CCT dans la passation des marchés publics
   parent: Présentation
-  order: 3
+  order: 2 
 ---
 
 # Guide d’utilisation du CCT dans la passation des marchés publics
