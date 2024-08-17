@@ -150,3 +150,4 @@ pas de pluggins connus qui permettent la transformation de md en pdf
 Nous utilisons :
 - le template fournis par [eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) avec une adaptation concernant l'usage de mermaid.
 - [unDraw](https://undraw.co/search) pour certaines images
+- [icons](https://icon-sets.iconify.design/)
