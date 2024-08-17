@@ -6,21 +6,12 @@ date: git Last Modified
 eleventyNavigation:
   key: Présentation générale
   parent: Présentation 
-  order: 2
+  order: 1
   
 ---
+À travers sa doctrine **Cloud au centre**, l’État encourage l’ensemble des acteurs publics à se saisir de son potentiel afin de développer une nouvelle génération de services numériques de qualité, tout en protégeant au mieux les données des entreprises et des citoyens français.
 
-À travers sa doctrine **« Cloud au centre »**, l’État encourage l’ensemble des acteurs publics
-à se saisir de son potentiel afin de développer une nouvelle génération de services
-numériques de qualité, tout en protégeant au mieux les données des entreprises et des
-citoyens français.
-
-Dans le but de disposer un SI adapté et agile, le MIOM a posé un ensemble de normes
-techniques et des recommandations de nature, formalisés dans un document de Cadre
-de Cohérence Technique (CCT), pour le développement de nouvelles applications
-compatibles avec ces normes et hébergées sur son infrastructure, et de services de
-qualité qui répondent aux besoins des métiers et déployables rapidement et à coûts
-réduits.
+Dans le but de disposer un SI adapté et agile, le MIOM a posé un ensemble de normes techniques et des recommandations de nature, formalisés dans un document de Cadre de Cohérence Technique (CCT), pour le développement de nouvelles applications compatibles avec ces normes et hébergées sur son infrastructure, et de services de qualité qui répondent aux besoins des métiers et déployables rapidement et à coûts réduits.
 
 Ce document représente le document « chapeau » du Cadre de Cohérence Technique
 (CCT) qui vise à faire le lien vers d’autres documents, selon les offres du MIOM et
@@ -28,7 +19,7 @@ interministériel, dont chacun d’eux est couplé d’un guide de bonnes pratiq
 liste d’annexes et d’exigences.
 
 Le premier chapitre de ce document décrit le contexte et les objectifs du CCT. Il donne
-une visibilité sur son architecture documentaire et son applicabilité selon différents cas d’usages, tout en mentionnant les domaines concernés et les acteurs ciblés ainsi que son utilisation au sein des projets et des processus du MIOM et interministériel. 
+une visibilité sur son architecture documentaire et son applicabilité selon différents cas d’usages, tout en mentionnant les domaines concernés et les acteurs ciblés ainsi que son utilisation au sein des projets et des processus du ministère et en interministériel. 
 
 Le deuxième chapitre défini le cadre d’applicabilité de ce CCT sur les différentes offres de services avec les usages concernés et le dernier chapitre définit son cycle de vie et sa gouvernance.
 
@@ -68,7 +59,7 @@ Le CCT du SI a plusieurs objectifs :
 - Fiabiliser le système d'information en préconisant des briques techniques de sécurité à mettre en œuvre.
 Ce CCT chapeau doit permettre aux Concepteurs/Développeurs, architectes, chefs de projet et DevOps de pouvoir identifier immédiatement les documents et règles auxquelles il doit se conformer en fonction des caractéristiques de son application.
 
-## L'Objet
+## Objet
 
 Ce document représente le document « chapeau » du CCT qui vise à faire le lien vers d’autres documents, selon les offres du MIOM et interministériel, dont chacun d’eux est couplé d’un guide de bonnes pratiques et d’une liste d’annexes et d’exigences.
 Pour plus de flexibilité dans l’évolution et dans l’applicabilité du CCT, celui-ci est scindé en plusieurs documents dont l’architecture est détaillée dans le chapitre 1.3. Ce document « chapeau » vise à faire le lien vers d’autres documents listés ci-dessous dont chacun d’eux est couplé d’une liste d’annexes et d’exigences.
@@ -253,10 +244,6 @@ comité ministériel
 des chefs de projets
 
 <br>
-
-:::callout Thèmes
-[Après cette saine lecture découvrons les](../../blog/)
-:::
 
 
 {% include "components/back_to_top.njk" %}

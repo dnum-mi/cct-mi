@@ -68,7 +68,7 @@ ou
 title: données et api
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 ```
 
@@ -95,7 +95,7 @@ ou
 title: Pour commencer
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: pour commencer
   parent: Documentation
@@ -150,3 +150,4 @@ pas de pluggins connus qui permettent la transformation de md en pdf
 Nous utilisons :
 - le template fournis par [eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) avec une adaptation concernant l'usage de mermaid.
 - [unDraw](https://undraw.co/search) pour certaines images
+- [icons](https://icon-sets.iconify.design/)
