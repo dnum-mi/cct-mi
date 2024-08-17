@@ -68,7 +68,7 @@ ou
 title: données et api
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 ---
 ```
 
@@ -95,7 +95,7 @@ ou
 title: Pour commencer
 layout: layouts/page_date_readtime.njk
 showBreadcrumb: true
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: pour commencer
   parent: Documentation
