@@ -4,7 +4,7 @@ _paq.push(["setExcludedQueryParams", ["simulationId", "_csrf"]]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function () {
-    var u = "https://matomo-dtnum-mi.freedynamicdns.org/";
+    var u = "https://matoto-test.apps.app1.numerique-interieur.com/";
     _paq.push(['setTrackerUrl', u + 'matomo.php']);
     _paq.push(['setSiteId', '2']);
     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
