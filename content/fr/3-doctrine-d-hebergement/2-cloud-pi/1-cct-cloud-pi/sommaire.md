@@ -20,7 +20,7 @@ Elle répond aux objectifs suivants :
 - Contribuer à la transformation numérique de l'État
 - Réduire les coûts d'infrastructure des services de l'État
 
-L'offre peut se consommer telle quelle. [La souscription au service se fait au travers du portail Pi (accès RIE)](https://pi.interieur.gouv.fr)
+L'offre peut se consommer telle quelle. [La souscription au service se fait au travers du portail Pi (accès RIE)](https://pi.interieur.rie.gouv.fr)
 
 [**Il est demandé aux projets d'opter le plus possible pour l'adjonction à l'offre Cloud Pi Native** . Suivez ce lien pour plus de détail.](../../../1-cloud-native/1-cct-cloud-native/sommaire/) 
 
